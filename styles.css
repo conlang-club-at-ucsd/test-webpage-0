@@ -241,7 +241,17 @@ a{ color: var(--purple-deep); }
   margin-top: 24px;
   flex-wrap: wrap;
 }
-.hero-art{ position: relative; }
+.hero-art{ position: relative; display: flex; align-items: center; justify-content: center; }
+.hero-art img{
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: var(--line) solid var(--ink);
+  background: var(--paper);
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--ink);
+}
 
 .page-banner{
   background: var(--purple-deep);
