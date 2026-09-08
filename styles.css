@@ -328,6 +328,12 @@ section{ padding: 64px 0; }
   flex-shrink: 0;
 }
 .head-avatar svg{ width: 78%; height: 78%; }
+.head-avatar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .avatar-gold{ background: var(--cream); }
 .avatar-purple{ background: var(--cream); }
 
@@ -353,6 +359,13 @@ section{ padding: 64px 0; }
   font-style: italic;
   color: var(--purple-deep);
   font-size: 0.92rem;
+}
+.officer-pronouns{
+  margin: 2px 0 0;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: #5a3a58;
+  letter-spacing: 0.01em;
 }
 .officer-card p{ margin: 0; font-size: 0.96rem; }
 .officer-links{ margin-top: auto; }
@@ -486,3 +499,24 @@ section{ padding: 64px 0; }
   .error-page .wrap{ grid-template-columns: 1fr; text-align: center; }
   .error-page .hero-art{ order: -1; max-width: 220px; margin: 0 auto; }
 }
+
+.faq-list{
+  display: grid;
+  gap: 22px;
+}
+.faq-item{
+  background: var(--paper);
+  border: var(--line) solid var(--ink);
+  border-radius: var(--radius);
+  padding: 24px 26px;
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--ink);
+}
+.faq-item h3{
+  margin-bottom: 0.35em;
+  font-size: 1.15rem;
+}
+.faq-item p{
+  margin: 0;
+  max-width: none;
+}
+.faq-item p + p{ margin-top: 0.7em; }
