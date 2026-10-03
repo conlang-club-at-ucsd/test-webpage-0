@@ -1,4 +1,46 @@
-document.addEventListener('DOMContentLoaded', function () {
+// this is the path to the layout thingy, change it if you change the path
+var LAYOUT_URL = '/partials/layout.html';
+
+// i hate regex (normalizes /about, about, or about/ (this is an example))
+function normalizePath(path) {
+  return path.replace(/index\.html$/, '').replace(/\/+$/, '') || '/';
+}
+
+function loadIncludes() {
+  var slots = document.querySelectorAll('[data-include]');
+  if (!slots.length) return Promise.resolve();
+
+  return fetch(LAYOUT_URL)
+    .then(function (res) {
+      if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+      return res.text();
+    })
+    .then(function (html) {
+      var doc = new DOMParser().parseFromString(html, 'text/html');
+      slots.forEach(function (slot) {
+        var name = slot.getAttribute('data-include');
+        var tpl = doc.getElementById(name);
+        if (!tpl) {
+          console.warn('[includes] No <template id="' + name + '"> in ' + LAYOUT_URL);
+          return;
+        }
+        slot.replaceWith(document.importNode(tpl.content, true));
+      });
+
+      // highlights the nav link that's currently selected
+      var here = normalizePath(location.pathname);
+      document.querySelectorAll('.nav-links a[href^="/"]').forEach(function (a) {
+        if (normalizePath(new URL(a.href).pathname) === here) {
+          a.setAttribute('aria-current', 'page');
+        }
+      });
+    })
+    .catch(function (err) {
+      console.error('[includes] Could not load ' + LAYOUT_URL + ':', err,);
+    });
+}
+
+function initSite() {
   var toggle = document.querySelector('.nav-toggle');
   var links = document.querySelector('.nav-links');
   if (toggle && links) {
@@ -102,4 +144,8 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  loadIncludes().then(initSite);
 });
