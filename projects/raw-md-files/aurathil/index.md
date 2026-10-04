@@ -1,3 +1,8 @@
+---
+title: Aurathil
+author: Alex
+---
+
 # Aurathil
 
 **Aurathil**, "the Windtongue" or "the Casting Tongue" in Common Language. Not any single coven's cradle-speech, but the shared ritual and trade language spoken, with wildly varying fluency, by nearly every coven across the Witchlands.
