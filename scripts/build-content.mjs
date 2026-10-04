@@ -87,8 +87,8 @@ function renderPage({ slug, title, description, doc, source }) {
 <style>
 .doc-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:36px;align-items:start}
 @media(max-width:900px){.doc-layout{grid-template-columns:1fr}}
-.doc-toc{position:sticky;top:96px;background:var(--paper);border:var(--line) solid var(--ink);border-radius:var(--radius);padding:18px 18px 14px;box-shadow:var(--shadow-off) var(--shadow-off) 0 0 var(--ink);font-size:.92rem}
-@media(max-width:900px){.doc-toc{position:static;order:-1}}
+.doc-toc{position:sticky;top:96px;max-height:calc(100vh - 96px - 24px);overflow-y:auto;overscroll-behavior:contain;background:var(--paper);border:var(--line) solid var(--ink);border-radius:var(--radius);padding:18px 18px 14px;box-shadow:var(--shadow-off) var(--shadow-off) 0 0 var(--ink);font-size:.92rem}
+@media(max-width:900px){.doc-toc{position:static;order:-1;max-height:320px}}
 .doc-toc__title{font-family:var(--font-display);font-weight:700;margin:0 0 8px}
 .doc-toc ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .doc-toc a{color:var(--purple-deep);text-decoration:none}
