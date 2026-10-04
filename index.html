@@ -56,6 +56,7 @@
         <div class="card">
           <h3>Clublang</h3>
           <p>You can join us in making our club specific conlang, tlag!</p>
+          <a class="btn btn--small" href="tlag/" style="margin-top:16px;">Explore tlag</a>
         </div>
       </div>
     </div>
@@ -65,14 +66,16 @@
     <div class="wrap spotlight-grid">
       <div>
         <span class="eyebrow-tag" style="color:#FFB700;">Member spotlight</span>
-        <h2>See what our officers have made</h2>
-        <p>From Aurathil to Ravya, this page showcases conlangs made by our very own officers.</p>
+        <h2>See what our members have made</h2>
+        <p id="spotlight-blurb">This page showcases conlangs made by our very own members and officers.</p>
         <a class="btn" href="projects/">Browse member conlangs</a>
       </div>
-      <div class="card card--purple">
+      <div class="card card--purple" id="spotlight-card">
         <span class="tag" style="background:#FFB700; color:#17110f; border-color:#17110f;">Featured</span>
-        <h3>Xazryn Boaawren</h3>
-        <p>A language spoken throughout an entire fictional continent, with a root-and-pattern verbal morphology on three-segment VCV roots, a rich locational/directional case system, and no copula.</p>
+        <h3 id="spotlight-title">Loading…</h3>
+        <p id="spotlight-excerpt">Fetching a featured conlang from our member projects.</p>
+        <p id="spotlight-meta" hidden></p>
+        <a class="btn btn--small" id="spotlight-link" href="projects/">Browse member conlangs</a>
       </div>
     </div>
   </section>
@@ -102,5 +105,87 @@
 <div data-include="footer"></div>
 
 <script src="script.js"></script>
+<script>
+// populates member spotlight from projects/data/index.json
+(function () {
+  var title = document.getElementById('spotlight-title');
+  var excerpt = document.getElementById('spotlight-excerpt');
+  var meta = document.getElementById('spotlight-meta');
+  var link = document.getElementById('spotlight-link');
+  if (!title || !excerpt || !link) return;
+
+  function show(titleText, excerptText, metaText, href, linkText) {
+    title.textContent = titleText;
+    excerpt.textContent = excerptText;
+    if (meta) {
+      if (metaText) {
+        meta.textContent = metaText;
+        meta.hidden = false;
+      } else {
+        meta.hidden = true;
+      }
+    }
+    link.href = href;
+    link.textContent = linkText;
+  }
+
+  function pageHref(p) {
+    if (p.slug) return 'projects/' + encodeURIComponent(p.slug) + '/';
+    return p.page || 'projects/';
+  }
+
+  fetch('projects/data/index.json')
+    .then(function (res) {
+      if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+      return res.json();
+    })
+    .then(function (data) {
+      var projects = (data && data.projects) || [];
+      if (!projects.length) {
+        show(
+          'Member conlangs',
+          'No member conlangs published yet; check back soon.',
+          '',
+          'projects/',
+          'Browse member conlangs'
+        );
+        return null;
+      }
+      var pick = projects[Math.floor(Math.random() * projects.length)];
+      var pickTitle = pick.title || pick.slug || 'Member conlang';
+      show(
+        pickTitle,
+        pick.excerpt || 'No description yet.',
+        pick.author ? 'by ' + pick.author : '',
+        pageHref(pick),
+        'Read ' + pickTitle + ' guide'
+      );
+      return pick;
+    })
+    .then(function (pick) {
+      if (!pick || !pick.slug || pick.author) return;
+      return fetch('projects/data/' + encodeURIComponent(pick.slug) + '.json')
+        .then(function (res) { return res.ok ? res.json() : null; })
+        .then(function (doc) {
+          var author = doc && doc.frontmatter && (doc.frontmatter.author || doc.frontmatter.by);
+          if (author && meta) {
+            meta.textContent = 'by ' + author;
+            meta.hidden = false;
+          }
+        })
+        .catch(function () {});
+    })
+    .catch(function (err) {
+      console.error('[spotlight] Could not load projects/data/index.json:', err);
+      show(
+        'Member conlangs',
+        'Could not load the featured conlang. Browse all of them instead.',
+        '',
+        'projects/',
+        'Browse member conlangs'
+      );
+    });
+})();
+</script>
 </body>
 </html>
