@@ -146,7 +146,6 @@ ${toc}
   <section class="section-gold">
     <div class="wrap" style="text-align:center;">
       <h2 style="max-width:36ch; margin:0 auto 12px;">Building your own conlang?</h2>
-      <p style="max-width:46ch; margin:0 auto 22px;">Members can add a page here by dropping a Markdown file in <code>projects/raw-md-files/</code>.</p>
       <p style="margin:0 auto 22px; max-width:46ch;"><a class="btn btn--small" href="../">Back to member conlangs</a></p>
       <a class="btn" href="https://discord.gg/PdkpT26AHG" target="_blank" rel="noopener">Share it in Discord</a>
     </div>

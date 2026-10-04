@@ -412,10 +412,3 @@ WORD-my-ABS       stand-EVID.WIND        NEG-wind
 ```
 
 _Literal sense:_ "My word (is, as far as I can tell,) standing; there's no wind [of trouble] here."
-
----
-
-## Related Notes
-
-- The Witchlands: Aurathil is the shared ritual and trade tongue of the Witchlands' covens
-- Windwork: Aurathil's grammar (breath groups, the four-phase aspect cycle) mirrors Windwork's own mechanics directly
