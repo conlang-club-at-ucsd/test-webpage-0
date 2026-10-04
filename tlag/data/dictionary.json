@@ -1,0 +1,7109 @@
+{
+ "_readme": "Source of truth for the tlag dictionary. Edit entries here (keep array order stable; new words slot in alphabetically by 't'), then run: node scripts/build-tlag.mjs",
+ "updated": "2026-10-04",
+ "count": 906,
+ "entries": [
+  {
+   "t": "a",
+   "en": "voice",
+   "ipa": "[æ]",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "aabaakaatl",
+   "en": "avocado",
+   "ipa": "[ɑ.b̪͡vɑ.kʼɑʈ͡ɭ˔]",
+   "pos": "Noun",
+   "ety": "from Nahuatl",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "aahostol",
+   "en": "shop, store",
+   "ipa": "[ɑ.ho.sʈoɮ]",
+   "pos": "Noun"
+  },
+  {
+   "t": "aaki",
+   "en": "sister; female first cousin",
+   "ipa": "[ɑ.kʼi]",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ]
+  },
+  {
+   "t": "aalpaakaa",
+   "en": "alpaca",
+   "ipa": "[ɑɮ.pʼɑ.kʼɑ]",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "aamaa",
+   "en": "mango",
+   "ipa": "[ɑ.mɑ]",
+   "pos": "Noun",
+   "ety": "from Sanskrit",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "aamaixo",
+   "en": "phone",
+   "ipa": "[ɑ.mæ.i.xo]",
+   "pos": "Noun",
+   "cats": [
+    "technology"
+   ]
+  },
+  {
+   "t": "Aamvrvnjv",
+   "en": "Amharic language",
+   "ipa": "[ɑ.mə.ɾə̃ɲ.jə]",
+   "pos": "Proper noun",
+   "ety": "from Amharic",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "aanime",
+   "en": "anime",
+   "ipa": "[ɑ.ni.mɛ]",
+   "pos": "Noun",
+   "ety": "from Japanese",
+   "ex": [
+    {
+     "tlag": "I have the power of God and anime on my side!"
+    }
+   ]
+  },
+  {
+   "t": "aasolotl",
+   "en": "axolotl",
+   "ipa": "[ɑʂoɮoʈ͡ɭ˔]",
+   "pos": "Noun",
+   "ety": "from Nahuatl",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "aastox",
+   "en": "real, true",
+   "ipa": "[ɑʂ.ʈox]",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "aax",
+   "en": "eye",
+   "ipa": "[ɑx]",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "aaxlaam",
+   "en": "fire",
+   "ipa": "[ɑx.ɮɑ̃m]",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Heat from fire, fire from heat",
+     "gloss": "heat fire ABL fire heat ABL"
+    }
+   ]
+  },
+  {
+   "t": "Aazarbajtsaantsaa",
+   "en": "Azerbaijani language",
+   "pos": "Proper noun",
+   "ety": "from Azerbaijani",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "agaa",
+   "en": "brain",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ],
+   "ex": [
+    {
+     "tlag": "this is your brain on drugs"
+    }
+   ]
+  },
+  {
+   "t": "agaairisir",
+   "en": "neuroscience",
+   "pos": "Noun"
+  },
+  {
+   "t": "agaa'upilaa",
+   "en": "brainworm",
+   "pos": "Noun"
+  },
+  {
+   "t": "agari",
+   "en": "to do",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Just do it!"
+    }
+   ]
+  },
+  {
+   "t": "alekcv",
+   "en": "yuri",
+   "pos": "Noun",
+   "ety": "from Alex",
+   "cats": [
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "nunumaateke ninv alekcvhv vm",
+     "en": "I enjoy reading yuri"
+    }
+   ]
+  },
+  {
+   "t": "alekcvpaali",
+   "en": "lesbian",
+   "pos": "Noun",
+   "ety": "alekcv 'yuri' + -paali 'agentive suffix'",
+   "cats": [
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "dip me in honey, and throw me to the lesbians"
+    }
+   ]
+  },
+  {
+   "t": "alekcvxung",
+   "en": "yurislop",
+   "pos": "Noun",
+   "cats": [
+    "fandom"
+   ]
+  },
+  {
+   "t": "aleksv",
+   "en": "yuri (alternative form of alekcv)",
+   "ipa": "[æ.ɮɛkʼ.ʂə]",
+   "pos": "Noun",
+   "ety": "from Alex",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "anakin",
+   "en": "sand",
+   "pos": "Noun",
+   "ety": "from Anakin Skywalker",
+   "ex": [
+    {
+     "tlag": "I don't like sand. It's rough, coarse, irritating and it gets everywhere"
+    }
+   ]
+  },
+  {
+   "t": "ananas",
+   "en": "pineapple",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "anos",
+   "en": "honey",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Arabi",
+   "en": "Arabic language",
+   "pos": "Proper noun",
+   "ety": "from Arabic",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "atxu",
+   "en": "horse",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "atxu oriee u fvnvacaamus",
+     "en": "evil and intimidating horse"
+    }
+   ]
+  },
+  {
+   "t": "atxu xucnaamiakux",
+   "en": "zebra",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "avam",
+   "en": "table",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "furniture"
+   ]
+  },
+  {
+   "t": "axajo",
+   "en": "to do something unneccessary or difficult for comedic effect",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "baab",
+   "en": "sea sponge",
+   "pos": "Noun",
+   "ety": "a priori; from Spongebob",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "baabos",
+   "en": "lion",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Baaglaa",
+   "en": "Bengali language",
+   "pos": "Proper noun",
+   "ety": "from Bengali",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "baaki",
+   "en": "to teach",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "baakipaali",
+   "en": "teacher",
+   "pos": "Noun"
+  },
+  {
+   "t": "baaklaabaa",
+   "en": "baklava",
+   "pos": "Noun",
+   "ety": "from Turkish",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "baaleki",
+   "en": "boy (male child)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Baalutsi",
+   "en": "Balochi language",
+   "pos": "Proper noun",
+   "ety": "from Balochi",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "baane",
+   "en": "to grow (intransitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "baaneuts",
+   "en": "to grow (transitive)",
+   "pos": "Verb",
+   "ety": "baane 'to grow' + -uts 'transitive suffix'"
+  },
+  {
+   "t": "baanilaa",
+   "en": "vanilla",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "baanoci",
+   "en": "eel",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "baarbikiju",
+   "en": "barbecue",
+   "pos": "Noun",
+   "ety": "from English",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "baare",
+   "en": "fox",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "baaret",
+   "en": "thunder",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "weather"
+   ]
+  },
+  {
+   "t": "baaxet",
+   "en": "to pray, to petition",
+   "pos": "Verb",
+   "ety": "a priori",
+   "cats": [
+    "religion"
+   ]
+  },
+  {
+   "t": "baazil",
+   "en": "Italian basil",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "bakobits",
+   "en": "phonology (field of study)",
+   "pos": "Noun",
+   "ety": "from Eric Bakovic",
+   "cats": [
+    "linguistics"
+   ]
+  },
+  {
+   "t": "banana",
+   "en": "banana",
+   "pos": "Noun",
+   "ety": "from English",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "banmi",
+   "en": "banh mi",
+   "pos": "Noun",
+   "ety": "from Vietnamese",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "ben",
+   "en": "hypothetically, theoretically",
+   "pos": "Adverb",
+   "ety": "from Ben Shapiro",
+   "ex": [
+    {
+     "tlag": "Let's say hypothetically for the sake of argument"
+    }
+   ]
+  },
+  {
+   "t": "bez",
+   "en": "garnish",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "bi",
+   "en": "that (complementizer, relativizer)",
+   "pos": "Pronoun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Bielaruski",
+   "en": "Belarusian language",
+   "pos": "Proper noun",
+   "ety": "from Belarusian",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Biet",
+   "en": "Vietnamese language",
+   "pos": "Proper noun",
+   "ety": "from Vietnamese",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "biftek",
+   "en": "steak",
+   "pos": "Noun",
+   "ety": "from French bifteck",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "bilaat",
+   "en": "willow tree",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "bimaas",
+   "en": "box",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "bimaatsaa",
+   "en": "birch tree",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "biolino",
+   "en": "violin",
+   "pos": "Noun",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "birjaani",
+   "en": "biryani",
+   "pos": "Noun",
+   "ety": "from Hindustani",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "blus",
+   "en": "liver",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "bobaa",
+   "en": "boba, bubble tea",
+   "pos": "Noun",
+   "ety": "from English boba",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "boso",
+   "en": "to hug",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "botkv",
+   "en": "vodka",
+   "pos": "Noun",
+   "ety": "from Russian",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "buaakurugxu",
+   "en": "polynomial",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "bunvn",
+   "en": "millet"
+  },
+  {
+   "t": "burulaa",
+   "en": "to be possible",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "busiko",
+   "en": "to clock",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "buxv",
+   "en": "leg",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "bvg",
+   "en": "shrimp",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Gv puxe taagvzvk bvg.",
+     "en": "The dragon has come to the shrimp."
+    }
+   ]
+  },
+  {
+   "t": "bvlohaj",
+   "en": "blue shark",
+   "pos": "Noun",
+   "ety": "from Swedish blåhaj",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "bvpfibpvf",
+   "en": "French toast",
+   "pos": "Noun",
+   "ety": "a priori (meant to be a tongue twister)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "bvrisket",
+   "en": "brisket",
+   "pos": "Noun",
+   "ety": "from English brisket",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "caam",
+   "en": "to join, to affix, to ship, to OTP",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "vuu, caamuvu vm nihv ne~",
+     "en": "aww, I (cutely) ship you (acc. pc) (jocular)"
+    }
+   ]
+  },
+  {
+   "t": "caamir",
+   "en": "joining, affixing, ship (romantic)",
+   "pos": "Noun"
+  },
+  {
+   "t": "caamjatlvtso",
+   "en": "to be shippable",
+   "pos": "Verb"
+  },
+  {
+   "t": "caape",
+   "en": "fresh, raw, young, immature",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "caaulugbaau",
+   "en": "xiaolongbao",
+   "pos": "Noun",
+   "ety": "from Mandarin 小籠包",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "cagek",
+   "en": "silver",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "camu",
+   "en": "like, as",
+   "pos": "Postposition",
+   "ety": "a priori"
+  },
+  {
+   "t": "ceg",
+   "en": "liquid",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "cegbez",
+   "en": "sauce",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "Kaca cegbez gusamuv ilv? Where is the lamb sauce?",
+     "gloss": "be.where sauce lamb for"
+    }
+   ]
+  },
+  {
+   "t": "cemor",
+   "en": "ant",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "cig",
+   "en": "line",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "cilaa",
+   "en": "to kiss",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Homaa bi li nicilaa itorohv aam? - You like kissing boys, don't you?",
+     "gloss": "like that.COMP you.SG IRR-kiss boy-ACC SUG"
+    }
+   ]
+  },
+  {
+   "t": "cimu",
+   "en": "house, home",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "cimv",
+   "en": "glass (material)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "cina",
+   "en": "brown",
+   "pos": "Adjective",
+   "ety": "from Sina",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "cina",
+   "en": "transgender person",
+   "pos": "Noun",
+   "ety": "from Sina",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "cinaleg",
+   "en": "to transition (into), to become",
+   "pos": "Verb",
+   "cats": [
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "haa jatlv cina cinaxeu cinaleg?",
+     "en": "can transgender transgenders transition?"
+    }
+   ]
+  },
+  {
+   "t": "cinaxeu",
+   "en": "transgender (adj.)",
+   "pos": "Adjective",
+   "cats": [
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "haa jatlv cina cinaxeu cinaleg?",
+     "en": "can transgender transgenders transition?"
+    }
+   ]
+  },
+  {
+   "t": "cinig",
+   "en": "row",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "cinigtiris",
+   "en": "train",
+   "pos": "Noun"
+  },
+  {
+   "t": "cuhvg",
+   "en": "chair",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "furniture"
+   ]
+  },
+  {
+   "t": "cuno",
+   "en": "number",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "cupi",
+   "en": "circle",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "cupitsig",
+   "en": "sphere",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "curo",
+   "en": "to taste (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "egen",
+   "en": "stone, rock",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "egenjos",
+   "en": "petroleum",
+   "pos": "Noun"
+  },
+  {
+   "t": "elim",
+   "en": "palm of hand",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "Elinikaa",
+   "en": "Greek language",
+   "pos": "Proper noun",
+   "ety": "from Greek",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "emaas",
+   "en": "silt",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "eslek",
+   "en": "wet",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "esnik",
+   "en": "needy",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "Espaanjol",
+   "en": "Spanish language",
+   "pos": "Proper noun",
+   "ety": "from Spanish español",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Esti",
+   "en": "Estonian language",
+   "pos": "Proper noun",
+   "ety": "from Estonian eesti",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "etaal",
+   "en": "nature",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "etaaliris",
+   "en": "physics",
+   "pos": "Noun"
+  },
+  {
+   "t": "etse",
+   "en": "to carry",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "etsepaali",
+   "en": "vector (lit. carrier)",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "etsepaali icim",
+   "en": "vector space",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "Euskaaraa",
+   "en": "Basque language",
+   "pos": "Proper noun",
+   "ety": "from Basque euskara",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "euzo",
+   "en": "blue",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "faafaa",
+   "en": "water",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "faarete",
+   "en": "to believe",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "faaretejir",
+   "en": "belief, doctrine, ideology",
+   "pos": "Noun"
+  },
+  {
+   "t": "Faarsi",
+   "en": "Persian language",
+   "pos": "Proper noun",
+   "ety": "from Persian فارسی",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "faatli",
+   "en": "alkane",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "falafel",
+   "en": "falafel",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "fokaatsaa",
+   "en": "focaccia",
+   "pos": "Noun",
+   "ety": "from Italian",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "fuf",
+   "en": "to bark, to wolf",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "funvlaa",
+   "en": "platypus",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "fv",
+   "en": "loud",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "fv",
+   "en": "pho",
+   "pos": "Noun",
+   "ety": "from Vietnamese",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "fvn",
+   "en": "fear",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "emotions"
+   ]
+  },
+  {
+   "t": "Fvraanse",
+   "en": "French language",
+   "pos": "Proper noun",
+   "ety": "from French",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "gaan",
+   "en": "jaw",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "gaangos",
+   "en": "mandible",
+   "pos": "Noun",
+   "ety": "gaan 'jaw'+ gos 'bone'",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "gihai",
+   "en": "to subtract",
+   "pos": "Verb",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "gimitli",
+   "en": "green",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "gimtucu",
+   "en": "integral (noun)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "ginaux",
+   "en": "to divide",
+   "pos": "Verb",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "gog",
+   "en": "farm",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "gogko",
+   "en": "farmer",
+   "pos": "Noun"
+  },
+  {
+   "t": "gogleg",
+   "en": "to farm",
+   "pos": "Verb"
+  },
+  {
+   "t": "goglegir",
+   "en": "farming, agriculture",
+   "pos": "Noun",
+   "ex": [
+    {
+     "tlag": "Farming? Really? A man of your talents?"
+    }
+   ]
+  },
+  {
+   "t": "goglegiriris",
+   "en": "agricultural science",
+   "pos": "Noun"
+  },
+  {
+   "t": "gogpaali",
+   "en": "farmer",
+   "pos": "Noun"
+  },
+  {
+   "t": "gos",
+   "en": "bone",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "got",
+   "en": "sugar",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "gotxeu",
+   "en": "sugary",
+   "pos": "Adjective"
+  },
+  {
+   "t": "gune",
+   "en": "marrow",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "gunemic svxoxeu maape",
+   "en": "polio",
+   "pos": "Noun",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "gusam",
+   "en": "sheep",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "gusamuv",
+   "en": "lamb",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "haa",
+   "en": "marks yes-no question",
+   "pos": "Particle",
+   "ety": "a priori"
+  },
+  {
+   "t": "haagko",
+   "en": "elephant",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Haajeren",
+   "en": "Armenian language",
+   "pos": "Proper noun",
+   "ety": "from Armenian",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Haankuko",
+   "en": "Korean language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "haataak",
+   "en": "hot dog",
+   "pos": "Noun",
+   "ety": "from English hot dog",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "hambvrgvr",
+   "en": "hamburger",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Hinti",
+   "en": "Hindi language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "hixabvrvs",
+   "en": "Mobius strip",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "hogaa",
+   "en": "to drink",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "hogaatl",
+   "en": "ladder",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "holim",
+   "en": "salt"
+  },
+  {
+   "t": "homaa",
+   "en": "to like",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "homvr",
+   "en": "doughnut",
+   "pos": "Noun",
+   "ety": "from Homer Simpson",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "horafaa",
+   "en": "Thai basil",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "hoz",
+   "en": "moose",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "hu",
+   "en": "or (exclusive)",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "huaakaamole",
+   "en": "guacamole",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "hubu",
+   "en": "owl",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "humso",
+   "en": "arm",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "humus",
+   "en": "hummus",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "humvc",
+   "en": "meat, flesh",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "huset",
+   "en": "cancer",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "husto",
+   "en": "oak tree",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "hustoiplaa",
+   "en": "acorn",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "hvg",
+   "en": "thigh",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "hvm",
+   "en": "lung",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "hvmxeu",
+   "en": "pulmonic, pulmonary",
+   "pos": "Adjective",
+   "cats": [
+    "anatomy",
+    "linguistics"
+   ]
+  },
+  {
+   "t": "hvraa",
+   "en": "to say",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ibaarik",
+   "en": "cup",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "iben",
+   "en": "corn, maize",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "iben paaktsomek",
+   "en": "popcorn",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Ibrit",
+   "en": "Hebrew language",
+   "pos": "Proper noun",
+   "ety": "from Hebrew",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "icaa",
+   "en": "daughter, niece",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ],
+   "ex": [
+    {
+     "tlag": "don't talk to me or my daughter ever again"
+    }
+   ]
+  },
+  {
+   "t": "icim",
+   "en": "space, area",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "icim etsepaali",
+   "en": "vector space",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "icraati",
+   "en": "umami"
+  },
+  {
+   "t": "ifsvl",
+   "en": "to brush",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ifsvlpaali",
+   "en": "brush",
+   "pos": "Noun"
+  },
+  {
+   "t": "igaamit",
+   "en": "butterfly, moth",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "igel",
+   "en": "to throw",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "Iglis",
+   "en": "English language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "ijaal",
+   "en": "stick, pole",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "ijaarci",
+   "en": "hell",
+   "pos": "Noun",
+   "ety": "from ERC"
+  },
+  {
+   "t": "ikaa",
+   "en": "foot",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "ikaaibi",
+   "en": "by foot",
+   "pos": "Adverb"
+  },
+  {
+   "t": "ikaaibipuxe",
+   "en": "to go by foot",
+   "pos": "Verb"
+  },
+  {
+   "t": "ikaaibipuxepaali",
+   "en": "pedestrian",
+   "pos": "Noun"
+  },
+  {
+   "t": "ikaamic vjorogko",
+   "en": "foot fetish",
+   "pos": "Noun",
+   "cats": [
+    "sexuality"
+   ]
+  },
+  {
+   "t": "ikaapaaikaa",
+   "en": "octopus",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ikaatik",
+   "en": "ankle (lit. foot neck)",
+   "pos": "Noun",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "iku",
+   "en": "dog",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ikumvzu",
+   "en": "canid",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "iku susitus",
+   "en": "raccoon",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ikuvu",
+   "en": "puppy",
+   "pos": "Noun"
+  },
+  {
+   "t": "ikuvujecaa",
+   "en": "puppy girl",
+   "pos": "Noun"
+  },
+  {
+   "t": "ilaan",
+   "en": "moon, month",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "astronomy",
+    "time"
+   ]
+  },
+  {
+   "t": "ilililaa",
+   "en": "loss",
+   "pos": "Noun",
+   "ety": "from an abstraction of the comic \"Loss\""
+  },
+  {
+   "t": "ilililaaleg",
+   "en": "to lose (something)",
+   "pos": "Verb"
+  },
+  {
+   "t": "imo",
+   "en": "if",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "imoc",
+   "en": "garden, yard, courtyard",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "imten",
+   "en": "birth",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "imvn",
+   "en": "son, nephew",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ],
+   "ex": [
+    {
+     "tlag": "don't talk to me or my son ever again"
+    }
+   ]
+  },
+  {
+   "t": "incaar",
+   "en": "thought, idea, opinion",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Indonesiaa",
+   "en": "Indonesia, Indonesian language",
+   "pos": "Proper noun",
+   "cats": [
+    "countries",
+    "languages"
+   ]
+  },
+  {
+   "t": "ipaak",
+   "en": "to pop (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ipaas",
+   "en": "to walk, to move",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ipaasir",
+   "en": "motion",
+   "pos": "Noun"
+  },
+  {
+   "t": "ipaasiriris",
+   "en": "kinematics",
+   "pos": "Noun"
+  },
+  {
+   "t": "ipe",
+   "en": "goat",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "iplaa",
+   "en": "fruit",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink",
+    "botany"
+   ]
+  },
+  {
+   "t": "iplaagot",
+   "en": "fructose",
+   "pos": "Noun",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "iplvp",
+   "en": "to drown (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "iplvputs",
+   "en": "to drown (transitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "iris",
+   "en": "to know",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "irisir",
+   "en": "knowledge, science",
+   "pos": "Noun"
+  },
+  {
+   "t": "islaap",
+   "en": "mud",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Islensvkaa",
+   "en": "Icelandic language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "ismaa",
+   "en": "sesame",
+   "pos": "Noun",
+   "ety": "from Akkadian 𒊭𒈠𒊭𒈬 (šamaššammum)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "ismur",
+   "en": "squid",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "isnv",
+   "en": "to wag",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ispaaz",
+   "en": "vegetable, herb",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "isuko",
+   "en": "computer",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "computing"
+   ]
+  },
+  {
+   "t": "Itaaliaano",
+   "en": "Italian language",
+   "pos": "Proper noun",
+   "ety": "from Italian italiano",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "itlaa",
+   "en": "to exist, there is, to be",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "itli",
+   "en": "idli",
+   "pos": "Noun",
+   "ety": "from Tamil இட்லி",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "itlikejaal",
+   "en": "unicycle",
+   "pos": "Noun"
+  },
+  {
+   "t": "itliuno",
+   "en": "unity, union",
+   "pos": "Noun"
+  },
+  {
+   "t": "itliunoxeu",
+   "en": "united",
+   "pos": "Adjective"
+  },
+  {
+   "t": "itliunoxeuleg",
+   "en": "to unite",
+   "pos": "Verb"
+  },
+  {
+   "t": "itlu",
+   "en": "music",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "itoro",
+   "en": "boy (young man)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "itorocilaapaali",
+   "en": "boykisser",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "itsaa",
+   "en": "tree",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "botany"
+   ]
+  },
+  {
+   "t": "ituro",
+   "en": "lead",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "ixlaam",
+   "en": "to sleep",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "ixom",
+   "en": "yeast",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ixraam",
+   "en": "to knead, to make biscuits (of cats)"
+  },
+  {
+   "t": "izum",
+   "en": "to see",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "izumir",
+   "en": "sight, vision",
+   "pos": "Noun"
+  },
+  {
+   "t": "izvn",
+   "en": "human",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "izvniris",
+   "en": "anthropology",
+   "pos": "Noun"
+  },
+  {
+   "t": "izvnmvzu",
+   "en": "anthropomorphic, hominid, humanoid",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "jaakets",
+   "en": "eagle",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "jaamaa",
+   "en": "llama",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "jaaraax",
+   "en": "wrong, false",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "jaasir",
+   "en": "lettuce",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "Number 15 Burger King foot lettuce"
+    }
+   ]
+  },
+  {
+   "t": "jaaspo",
+   "en": "pen (writing instrument)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "jaatsi",
+   "en": "chickpea",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "jakisobaa",
+   "en": "yakisoba",
+   "pos": "Noun",
+   "ety": "from Japanese 焼きそば (yakisoba)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "janatsir",
+   "en": "copper ingot",
+   "pos": "Noun",
+   "ety": "from 𒂍𒀀𒈾𒍢𒅕 (Ea-nāṣir)",
+   "ex": [
+    {
+     "tlag": "sulv kimil-sin iko janatsir sum - I will give Gimil-Sin fine-quality copper ingots",
+     "gloss": "NEAR.FUT give [Gimil-Sin] to copper.ingot good"
+    }
+   ]
+  },
+  {
+   "t": "jarixmo",
+   "en": "purple",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "jatlv",
+   "en": "can, to be able to",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "jatlvjir",
+   "en": "ability",
+   "pos": "Noun"
+  },
+  {
+   "t": "jatsig",
+   "en": "polyhedra",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "jazum",
+   "en": "polygon",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "jecaa",
+   "en": "girl (young woman)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "jecaacilaapaali",
+   "en": "girlkisser",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "jeko",
+   "en": "if and only if",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "jereci",
+   "en": "girl (female child)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "jestv",
+   "en": "to write"
+  },
+  {
+   "t": "jimox",
+   "en": "alcohol",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink",
+    "chemistry"
+   ]
+  },
+  {
+   "t": "jiros",
+   "en": "gyro",
+   "pos": "Noun",
+   "ety": "from Greek",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "jokaar",
+   "en": "palm tree",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "joncaati",
+   "en": "set of integers",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "jos",
+   "en": "oil",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "jugxaakig",
+   "en": "mod function",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "jup",
+   "en": "old",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "jusijaj",
+   "en": "anteater",
+   "pos": "Noun",
+   "ety": "from UCI",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "jusijesi",
+   "en": "banana slug",
+   "pos": "Noun",
+   "ety": "from UCSC",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "juskun",
+   "en": "dumpling",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "jvji",
+   "en": "to yeet",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaaceg",
+   "en": "graph",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "kaaktsu",
+   "en": "mint",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "kaaktsumvzu",
+   "en": "lamiaceous",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "Kaaleexu",
+   "en": "Galician language",
+   "pos": "Proper noun",
+   "ety": "from Galician galego",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kaalo",
+   "en": "rue",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kaalomvzu",
+   "en": "rutaceous (belonging to family containing rue and citrus)",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "kaamaas",
+   "en": "sound, noise",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Kaanaataa",
+   "en": "Kannada language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kaanlaan",
+   "en": "Chinese olive",
+   "pos": "Noun",
+   "ety": "from Mandarin 橄欖",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kaapibaaraa",
+   "en": "capybara",
+   "pos": "Noun",
+   "ety": "from Portuguese",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kaapil",
+   "en": "animal",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kaapiliris",
+   "en": "zoology",
+   "pos": "Noun"
+  },
+  {
+   "t": "kaarfitl",
+   "en": "lasagna",
+   "pos": "Noun",
+   "ety": "from Garfield",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kaaso",
+   "en": "to hear",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaasojir",
+   "en": "hearing",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaastik",
+   "en": "arrow",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaastu",
+   "en": "chalk",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Kaataalaa",
+   "en": "Catalan language",
+   "pos": "Proper noun",
+   "ety": "from Catalan català",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kaatlo",
+   "en": "to learn, to study",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaatlopaali",
+   "en": "learner, student",
+   "pos": "Noun"
+  },
+  {
+   "t": "kaatom",
+   "en": "potato",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kaaxvz",
+   "en": "paper",
+   "pos": "Noun",
+   "ety": "from Persian کاغذ (kāġez)"
+  },
+  {
+   "t": "Kaazaak",
+   "en": "Kazakh language",
+   "pos": "Proper noun",
+   "ety": "from Kazakh",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kaazus",
+   "en": "to forget",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kaazusuts",
+   "en": "to cause to forget",
+   "pos": "Verb"
+  },
+  {
+   "t": "kabaap",
+   "en": "kebab",
+   "pos": "Noun",
+   "ety": "from Turkish kebap",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kabotsa",
+   "en": "kabocha",
+   "pos": "Noun",
+   "ety": "from Japanese カボチャ (kabocha)",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "kacvg",
+   "en": "to give",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kafa",
+   "en": "coffee",
+   "pos": "Noun",
+   "ety": "from Arabic قهوة (qahwa)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kagec",
+   "en": "metal",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kageccinig",
+   "en": "railway track",
+   "pos": "Noun"
+  },
+  {
+   "t": "Kalaalisut",
+   "en": "Greenlandic language",
+   "pos": "Proper noun",
+   "ety": "from Greenlandic",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kalam",
+   "en": "reed pen",
+   "pos": "Noun",
+   "ety": "from Arabic قلم (qalam)"
+  },
+  {
+   "t": "kaltsone",
+   "en": "calzone",
+   "pos": "Noun",
+   "ety": "from Italian",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kamal",
+   "en": "Dromedary camel",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kamalmvzu",
+   "en": "camelid",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "kamatli",
+   "en": "book",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kamatlicimu",
+   "en": "library",
+   "pos": "Noun"
+  },
+  {
+   "t": "kan",
+   "en": "sugar cube",
+   "pos": "Noun",
+   "ety": "from Persian قند (qand)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kapet",
+   "en": "feather",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "kilogramme of feathers"
+    }
+   ]
+  },
+  {
+   "t": "karelek",
+   "en": "phonetics",
+   "pos": "Noun",
+   "ety": "from Marc Garellek",
+   "cats": [
+    "linguistics"
+   ]
+  },
+  {
+   "t": "karelekpaali",
+   "en": "phonetician"
+  },
+  {
+   "t": "Kartuli",
+   "en": "Georgian language",
+   "pos": "Proper noun",
+   "ety": "from Georgian",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "keciri",
+   "en": "hawk",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kejaal",
+   "en": "wheel",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "keli",
+   "en": "young",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "kemoc",
+   "en": "wine",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kentvki",
+   "en": "Southern-style fried chicken",
+   "pos": "Noun",
+   "ety": "from Kentucky",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kepitl",
+   "en": "to lead, to rule",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kepitlzime",
+   "en": "state, polity",
+   "pos": "Noun"
+  },
+  {
+   "t": "ketsot",
+   "en": "law, canon",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "law"
+   ]
+  },
+  {
+   "t": "ketsot iko",
+   "en": "lawfully, legally (lit. to the law)",
+   "pos": "Adverb"
+  },
+  {
+   "t": "ketsotxeu",
+   "en": "legal (relating to the law)",
+   "pos": "Adjective"
+  },
+  {
+   "t": "ketsotxeu'uno",
+   "en": "legality",
+   "pos": "Noun"
+  },
+  {
+   "t": "kicit",
+   "en": "eyelash",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kigko",
+   "en": "ginkgo tree",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kihvn",
+   "en": "gold",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "kilaa",
+   "en": "hand",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kilaan",
+   "en": "blood",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kilaanagari",
+   "en": "to cause to bleed",
+   "pos": "Verb"
+  },
+  {
+   "t": "kilaankacvg",
+   "en": "to bleed",
+   "pos": "Verb"
+  },
+  {
+   "t": "kilaanxeu",
+   "en": "bloody",
+   "pos": "Adjective"
+  },
+  {
+   "t": "kilaatik",
+   "en": "wrist (lit. hand neck)",
+   "pos": "Noun",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kilam",
+   "en": "hair",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kimbaap",
+   "en": "kimbap",
+   "pos": "Noun",
+   "ety": "from Korean",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kimtsi",
+   "en": "kimchi",
+   "pos": "Noun",
+   "ety": "from Korean",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kiro",
+   "en": "yellow",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "kitaaraa",
+   "en": "guitar",
+   "pos": "Noun",
+   "ety": "from Spanish guitarra",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "ko",
+   "en": "person",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Kogkaani",
+   "en": "Konkani language",
+   "pos": "Proper noun",
+   "ety": "from Konkani",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kom",
+   "en": "to call, to name",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "komaats",
+   "en": "black pepper",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kontun",
+   "en": "machine, device",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kopo",
+   "en": "good",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "kosari",
+   "en": "koshary",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "koxo",
+   "en": "chicken",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms",
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kubilat",
+   "en": "fly (insect)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kucepli",
+   "en": "yolk",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kucimaax",
+   "en": "glasses (lit. two glass eyes)",
+   "pos": "Noun",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "kuco",
+   "en": "squish (platonic crush)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kuhuitoro",
+   "en": "cowboy",
+   "pos": "Noun"
+  },
+  {
+   "t": "kuhuitoro taak",
+   "en": "blue jeans (lit. cowboy pants)",
+   "pos": "Noun",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "kukaas",
+   "en": "time (concept)",
+   "pos": "Noun"
+  },
+  {
+   "t": "kukaasnufoxpaali",
+   "en": "clock",
+   "pos": "Noun"
+  },
+  {
+   "t": "kukaasnufoxpaali nufoxir",
+   "en": "modular arithmetic (colloquial)",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "kukejaal",
+   "en": "bicycle",
+   "pos": "Noun"
+  },
+  {
+   "t": "kukos",
+   "en": "mature, ripe",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "kul",
+   "en": "rose",
+   "pos": "Noun",
+   "ety": "from Persian گل",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kule",
+   "en": "brother, male first cousin",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ],
+   "ex": [
+    {
+     "tlag": "Brother, may I have some oats?",
+     "gloss": "brother INT allow that.COMP IRR-have some oat"
+    }
+   ]
+  },
+  {
+   "t": "kulfaafaa",
+   "en": "rosewater",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kuli",
+   "en": "to speak"
+  },
+  {
+   "t": "kulxeu",
+   "en": "rosy, pink",
+   "pos": "Adjective",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "kumvtlo",
+   "en": "measles",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kur",
+   "en": "cheek",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "kuraasag",
+   "en": "croissant",
+   "pos": "Noun",
+   "ety": "from French croissant",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "Are you going to finish that croissant?",
+     "gloss": "INT NEAR.FUT finish that croissant-DEF.ACC"
+    }
+   ]
+  },
+  {
+   "t": "kuribu",
+   "en": "thirst",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kurig",
+   "en": "bison",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kuruba",
+   "en": "cinnamon (cinnamomum verum)",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kuson",
+   "en": "edible mushroom",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kustu",
+   "en": "nut",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kutli",
+   "en": "sweet"
+  },
+  {
+   "t": "Kutsaaraati",
+   "en": "Gujarati language",
+   "pos": "Proper noun",
+   "ety": "from Gujarati",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kutsv",
+   "en": "bitter"
+  },
+  {
+   "t": "kuxo",
+   "en": "clay",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "kuxtaa",
+   "en": "to break (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "kuxtaatso",
+   "en": "to break (instransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "kvlarinet",
+   "en": "clarinet",
+   "pos": "Noun",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "Kvmaj",
+   "en": "Khmer language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kvmiz",
+   "en": "shirt",
+   "pos": "Noun",
+   "ety": "from Persian قمیض",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "kvmkuaat",
+   "en": "kumquat",
+   "pos": "Noun",
+   "ety": "from Cantonese 柑橘 (gam1 gwat1)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kvmur",
+   "en": "dolphin",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kvmur xucnaamiakux",
+   "en": "orca",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "kvrem",
+   "en": "cream",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "kvri",
+   "en": "curry",
+   "pos": "Noun",
+   "ety": "from French crème",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Kvrkvz",
+   "en": "Kyrgyz language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Kvsur",
+   "en": "Kashmiri language",
+   "pos": "Proper noun",
+   "ety": "from Kashmiri",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "kvtsvg",
+   "en": "peanut",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "laabaas",
+   "en": "lavash",
+   "pos": "Noun",
+   "ety": "from Armenian լավաշ (lavaš)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "laalets",
+   "en": "to fry",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "laaxol",
+   "en": "to freeze (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "laaxolpaali",
+   "en": "freezer",
+   "pos": "Noun"
+  },
+  {
+   "t": "laaxoltso",
+   "en": "to freeze (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "laon",
+   "en": "to fly",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "Latbiesu",
+   "en": "Latvian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Lau",
+   "en": "Lao language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Lietubiu",
+   "en": "Lithuanian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "lifaa",
+   "en": "tongue",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "limi",
+   "en": "steel",
+   "pos": "Noun",
+   "ety": "from Limmy",
+   "ex": [
+    {
+     "tlag": "kilogramme of steel"
+    }
+   ]
+  },
+  {
+   "t": "lipaabaa",
+   "en": "to love platonically",
+   "pos": "Verb"
+  },
+  {
+   "t": "lipum",
+   "en": "maggot, rice grain (derogatory)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "listli",
+   "en": "snail",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "liti",
+   "en": "child",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "the children yearn for the mines"
+    }
+   ]
+  },
+  {
+   "t": "litsi",
+   "en": "urine, pee",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "litsimic gotxeu maape",
+   "en": "diabetes (lit. sugary urine disease)",
+   "pos": "Noun",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "litsvg",
+   "en": "to add",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "lubaa",
+   "en": "river",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "lubaa'atxu",
+   "en": "hippopotamus",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "lukol",
+   "en": "clay",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "lukut",
+   "en": "skull",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "lvbubu",
+   "en": "beetroot, beet",
+   "pos": "Noun",
+   "ety": "from Labubu, influenced by Tajik лаблабу (lablabu)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "lvcuko",
+   "en": "nail (body part)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "lvp",
+   "en": "to flop",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "lvpaali",
+   "en": "caracal (lit. flopper)",
+   "ex": [
+    {
+     "tlag": "lvpaali megi",
+     "en": "big floppa"
+    }
+   ]
+  },
+  {
+   "t": "lvppaali",
+   "en": "caracal",
+   "pos": "Noun",
+   "ety": "calque of English big floppa",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "lvppaali taagv - big floppa",
+     "gloss": "caracal big"
+    }
+   ]
+  },
+  {
+   "t": "maacmo",
+   "en": "to starve",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "You took my only food. Now I'm gonna starve!"
+    }
+   ]
+  },
+  {
+   "t": "maacto",
+   "en": "svelte",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "maafitl",
+   "en": "key",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "maakaarog",
+   "en": "macaron",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "maamaa",
+   "en": "mother, aunt",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ]
+  },
+  {
+   "t": "maamaaje",
+   "en": "grandfather",
+   "pos": "Noun",
+   "cats": [
+    "kinship"
+   ]
+  },
+  {
+   "t": "maamaatlini",
+   "en": "matrix",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "maape",
+   "en": "disease",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "maatsaa",
+   "en": "head",
+   "ipa": "[mɑ.t͡sɑ]",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "maatsaa",
+   "en": "matcha",
+   "ipa": "[mɑ.t͡sɑ]",
+   "pos": "Noun",
+   "ety": "from Japanese 抹茶 (matcha)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "maatsaa",
+   "en": "matzo",
+   "ipa": "[mɑ.t͡sɑ]",
+   "pos": "Noun",
+   "ety": "from Hebrew",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "maatsaaketsoagari",
+   "en": "to headcanon",
+   "pos": "Verb"
+  },
+  {
+   "t": "maatsaaketsos",
+   "en": "headcanon",
+   "pos": "Noun"
+  },
+  {
+   "t": "maau",
+   "en": "cat",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "maaujecaa",
+   "en": "cat girl",
+   "pos": "Noun"
+  },
+  {
+   "t": "maaumic naag",
+   "en": "sliced mushroom (lit. cat's nose)"
+  },
+  {
+   "t": "maaumvzu",
+   "en": "felid",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "majek",
+   "en": "front part",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "majekmic",
+   "en": "first, prime (of numbers)",
+   "pos": "Adjective",
+   "cats": [
+    "numbers",
+    "mathematics"
+   ]
+  },
+  {
+   "t": "majekmic taaxv",
+   "en": "methane",
+   "pos": "Noun",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "majonez",
+   "en": "mayonnaise",
+   "ex": [
+    {
+     "tlag": "is mayonnaise an instrument?"
+    }
+   ]
+  },
+  {
+   "t": "makaroni",
+   "en": "macaroni",
+   "pos": "Noun",
+   "ety": "from Italian maccheroni",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "makaroni sagin kaale",
+   "en": "macaroni and cheese",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "makluba",
+   "en": "maqlouba",
+   "pos": "Noun",
+   "ety": "from Arabic",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "maksagin",
+   "en": "mac and cheese",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "manakis",
+   "en": "manakish",
+   "pos": "Noun",
+   "ety": "from Arabic",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "mansaf",
+   "en": "mansaf",
+   "pos": "Noun",
+   "ety": "from Arabic",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "manv",
+   "en": "name, reputation, honor",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mas",
+   "en": "fat, corpulent",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "maset",
+   "en": "to quit",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "megi",
+   "en": "huge",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "Mejtej",
+   "en": "Meitei language",
+   "pos": "Proper noun",
+   "ety": "from Meitei",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "menaas",
+   "en": "to split",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "menaasjatlvmekol",
+   "en": "atom",
+   "pos": "Noun",
+   "cats": [
+    "chemistry",
+    "physics"
+   ]
+  },
+  {
+   "t": "merikaa",
+   "en": "turkey (bird)",
+   "ex": [
+    {
+     "tlag": "We're going back in time to the first Thanksgiving to get turkeys off the menu"
+    }
+   ]
+  },
+  {
+   "t": "mesu",
+   "en": "to despise, to treat with contempt",
+   "pos": "Verb",
+   "ety": "from Akkadian 𒈨𒋗 (mêšu)",
+   "ex": [
+    {
+     "tlag": "What do you take me for, that you treat somebody like me with such contempt?"
+    }
+   ]
+  },
+  {
+   "t": "mexitaa",
+   "en": "spice",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "miakux",
+   "en": "white",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "micikaa",
+   "en": "lobster",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms",
+    "food and drink"
+   ]
+  },
+  {
+   "t": "micmaa",
+   "en": "to love romantically",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "mikaanvl",
+   "en": "tortoise",
+   "pos": "Noun",
+   "ety": "from Mitch McConnell",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "mili",
+   "en": "rice",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "mili laaletsmek",
+   "en": "fried rice",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "min",
+   "en": "noodle",
+   "pos": "Noun",
+   "ety": "from Cantonese 麵 (min6)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "miro",
+   "en": "sour"
+  },
+  {
+   "t": "mismis",
+   "en": "apricot",
+   "pos": "Noun",
+   "ety": "from Arabic مشمش (mišmiš)",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "mitsi",
+   "en": "to buy, to purchase, to pay",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "What if I were to buy fast food and disguise it as my own cooking?"
+    }
+   ]
+  },
+  {
+   "t": "Mogol",
+   "en": "Mongolian language",
+   "ipa": "[mo.ŋoɮ]",
+   "pos": "Proper noun",
+   "ety": "from Mongolian",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "mokro",
+   "en": "city",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mopot",
+   "en": "bubble",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mosmaak",
+   "en": "board",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "moten",
+   "en": "to give birth",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "motentso",
+   "en": "to be born",
+   "pos": "Verb"
+  },
+  {
+   "t": "mou",
+   "en": "to meow",
+   "pos": "Verb",
+   "ety": "a priori, onomatopoeic"
+  },
+  {
+   "t": "moxlaap",
+   "en": "slug",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "muc",
+   "en": "oyster",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mugi",
+   "en": "seaweed",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms",
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "Seaweed. Fifty percent sea, fifty percent weed."
+    }
+   ]
+  },
+  {
+   "t": "muhu",
+   "en": "cow",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "muhumvzu",
+   "en": "bovid",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "muhuxeu",
+   "en": "bovine",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "mume",
+   "en": "monkey",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "Reject humanity, become monkey"
+    }
+   ]
+  },
+  {
+   "t": "mumemvzu",
+   "en": "simian",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "mumik",
+   "en": "right",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "mumuklo",
+   "en": "bottle",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "muncv",
+   "en": "dumpling",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "munibaa",
+   "en": "tiger",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "muris",
+   "en": "cold",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "murisbimaas",
+   "en": "ice box, refrigerator",
+   "pos": "Noun"
+  },
+  {
+   "t": "murisbimaas tlicuxeu",
+   "en": "refrigerator (formal)",
+   "pos": "Noun"
+  },
+  {
+   "t": "murotaa",
+   "en": "bow, arch",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mutsv",
+   "en": "wrath",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mutv",
+   "en": "bean",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "mutvmvzu",
+   "en": "fabaceous",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "muv",
+   "en": "torture, torment",
+   "pos": "Noun",
+   "ety": "from MMW (ERC Making of the Modern World)"
+  },
+  {
+   "t": "muvleg",
+   "en": "to torture, to torment",
+   "pos": "Verb"
+  },
+  {
+   "t": "muvlegpaali",
+   "en": "torturer, tormenter",
+   "pos": "Noun"
+  },
+  {
+   "t": "muvlegtso",
+   "en": "to suffer, to be tormented",
+   "pos": "Verb"
+  },
+  {
+   "t": "muxvr",
+   "en": "donkey",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "In heaven there is dragon meat, on earth there is donkey meat (Chinese saying)"
+    }
+   ]
+  },
+  {
+   "t": "muzin",
+   "en": "earth, ground, dirt",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "muzto",
+   "en": "occurrence of death",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "mv",
+   "en": "yes",
+   "pos": "Interjection",
+   "ety": "a priori"
+  },
+  {
+   "t": "mvgvs",
+   "en": "suspicious",
+   "pos": "Adjective",
+   "ety": "from Among Us"
+  },
+  {
+   "t": "Mvlaaju",
+   "en": "Malay language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "mvlapaa",
+   "en": "to touch",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "sulv mvlapaasulvva li vm",
+     "en": "I am going to forcibly touch you"
+    }
+   ]
+  },
+  {
+   "t": "Mvlvjvlvm",
+   "en": "Malayalam language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "mvnop",
+   "en": "boring",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "Mvraati",
+   "en": "Marathi language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "mvrikv",
+   "en": "monolingual",
+   "pos": "Adjective",
+   "ety": "from 'Murica"
+  },
+  {
+   "t": "naa",
+   "en": "similar to 'ね' in Japanese or British 'innit'",
+   "pos": "Particle",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Tuesday innit bruv?"
+    }
+   ]
+  },
+  {
+   "t": "naaci",
+   "en": "wife",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "naacivu",
+   "en": "waifu",
+   "pos": "Noun"
+  },
+  {
+   "t": "naag",
+   "en": "nose, trunk, proboscis, schnoz",
+   "pos": "Noun",
+   "ety": "a proori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "naagnitik",
+   "en": "rhinoceros",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "naako",
+   "en": "fish",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "naakom",
+   "en": "chest",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "naakommic tosaa",
+   "en": "chest binder",
+   "pos": "Noun"
+  },
+  {
+   "t": "naakpu",
+   "en": "cockroach",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "naan",
+   "en": "naan",
+   "pos": "Noun",
+   "ety": "from Hindustani नान",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "naapetsig",
+   "en": "cube",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "naapezum",
+   "en": "square",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "naaptuku",
+   "en": "answer to life, the universe, and everything"
+  },
+  {
+   "t": "naaraa",
+   "en": "pomegranate",
+   "pos": "Noun",
+   "ety": "from Persian انار",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "naarvg",
+   "en": "orange (fruit)",
+   "pos": "Noun",
+   "ety": "from Sanskrit नारङ्ग",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "naasope",
+   "en": "wick",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "naasti",
+   "en": "tuberculosis",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "naasurti",
+   "en": "meal",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "What is the charge? Eating a meal? A succulent Chinese meal?",
+     "gloss": "INT charge be-what eat meal succulent meal Chinese"
+    }
+   ]
+  },
+  {
+   "t": "nahv",
+   "en": "or (inclusive)",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "narifv",
+   "en": "set of natural numbers",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "Nepaali",
+   "en": "Nepali language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Neterlan",
+   "en": "Dutch language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "nicaaki",
+   "en": "star",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "astronomy"
+   ]
+  },
+  {
+   "t": "nico",
+   "en": "twink",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "Nihogo",
+   "en": "Japanese language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "nimo",
+   "en": "lemon",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "ninv",
+   "en": "to read",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "I only read yuri"
+    }
+   ]
+  },
+  {
+   "t": "nisv",
+   "en": "sun, day",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "astronomy",
+    "time"
+   ],
+   "ex": [
+    {
+     "tlag": "the sun is a deadly laser"
+    }
+   ]
+  },
+  {
+   "t": "nisvimten",
+   "en": "birthday",
+   "pos": "Noun"
+  },
+  {
+   "t": "nitik",
+   "en": "horn, antler",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "nixas",
+   "en": "poison, venom, toxin",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "noroje",
+   "en": "elbow",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "Noskv",
+   "en": "Norwegian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "nucaar",
+   "en": "to think, to consider",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "nucaarlek",
+   "en": "cognition",
+   "pos": "Noun"
+  },
+  {
+   "t": "nucaarlekirisir",
+   "en": "cognitive science",
+   "pos": "Noun"
+  },
+  {
+   "t": "nufox",
+   "en": "to count, to measure",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "nufoxir",
+   "en": "counting, arithmetic",
+   "pos": "Noun"
+  },
+  {
+   "t": "nufoxiriris",
+   "en": "mathematics",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "nug",
+   "en": "then",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "nukaal",
+   "en": "orange (color)",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "nulip",
+   "en": "skinny",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "nunumaa",
+   "en": "to enjoy",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "nusnis",
+   "en": "ammonia",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "nv",
+   "en": "to do something half assed because you don't actually want to do it, in order to get the person who asked you to do the task to never ask you again",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "nvce",
+   "en": "to cook"
+  },
+  {
+   "t": "nvceus",
+   "en": "cooking",
+   "ex": [
+    {
+     "tlag": "What if I were to purchase fast food and disguise it as my own cooking?"
+    }
+   ]
+  },
+  {
+   "t": "oceugki",
+   "en": "to multiply",
+   "pos": "Verb",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "ofor",
+   "en": "eyebrow",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "ohaabo",
+   "en": "set of real numbers",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "oj",
+   "en": "no (colloquial)",
+   "pos": "Interjection",
+   "ety": "a priori"
+  },
+  {
+   "t": "okonimijaaki",
+   "en": "okonimyaki",
+   "pos": "Noun",
+   "ety": "from Japanese お好み焼き (okonomiyaki)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "okrolo",
+   "en": "maple tree",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ol",
+   "en": "no",
+   "pos": "Interjection",
+   "ety": "a priori"
+  },
+  {
+   "t": "oraagutaan",
+   "en": "orangutan",
+   "pos": "Noun",
+   "ety": "from Malay",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "oru",
+   "en": "bad",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "ospaar",
+   "en": "to clean",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "otlap",
+   "en": "deer",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "paaktso",
+   "en": "to pop (intransitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "paakuz",
+   "en": "watermelon",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "paamtso",
+   "en": "drink, beverage",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "paamtso kaazusutsus",
+   "en": "alcoholic beverage (lit. forgetting drink)",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "paapaa",
+   "en": "father, uncle",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ]
+  },
+  {
+   "t": "paapaaje",
+   "en": "grandmother",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "kinship"
+   ]
+  },
+  {
+   "t": "paastaa",
+   "en": "pasta",
+   "pos": "Noun",
+   "ety": "from Italian pasta",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "paavi",
+   "en": "door",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "patrik",
+   "en": "starfish",
+   "pos": "Noun",
+   "ety": "from Patrick",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "pebe",
+   "en": "sheep (synonym of gusam)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "peme",
+   "en": "lip",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "peski",
+   "en": "butter",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pesto",
+   "en": "pesto",
+   "pos": "Noun",
+   "ety": "from Italian pesto",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pexe",
+   "en": "smallpox",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "piano",
+   "en": "piano",
+   "pos": "Noun",
+   "ety": "from Italian piano",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "piatuju",
+   "en": "exponent",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ],
+   "ex": [
+    {
+     "tlag": "ku piatuju naape",
+     "en": "two to the power of four"
+    }
+   ]
+  },
+  {
+   "t": "pigaa",
+   "en": "to smell (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "pigur",
+   "en": "to work, to function",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "It even works under water!"
+    }
+   ]
+  },
+  {
+   "t": "pigvn",
+   "en": "eggplant",
+   "pos": "Noun",
+   "ety": "from Hindustani बैंगन (baingan)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pikuaas",
+   "en": "to meet, to congregate",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "pikuaasir",
+   "en": "meeting, congregation",
+   "pos": "Noun"
+  },
+  {
+   "t": "pikuaasiruno",
+   "en": "society",
+   "pos": "Noun",
+   "ex": [
+    {
+     "tlag": "We live in a society"
+    }
+   ]
+  },
+  {
+   "t": "pikuaasirunofaaretejir",
+   "en": "socialism",
+   "pos": "Noun",
+   "ex": [
+    {
+     "tlag": "Socialism is when the government does stuff"
+    }
+   ]
+  },
+  {
+   "t": "pikuaasirunoiris",
+   "en": "sociology",
+   "pos": "Noun"
+  },
+  {
+   "t": "pikuaasirunoxeu",
+   "en": "social",
+   "pos": "Adjective"
+  },
+  {
+   "t": "pipel",
+   "en": "pepper",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pista",
+   "en": "pistachio",
+   "pos": "Noun",
+   "ety": "from Persian پیسته",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pitsaa",
+   "en": "pizza",
+   "pos": "Noun",
+   "ety": "from Italian pizza",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pizaa",
+   "en": "weak",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "I'm too weak!"
+    }
+   ]
+  },
+  {
+   "t": "pogkv",
+   "en": "horny",
+   "pos": "Adjective",
+   "ety": "from English bonk",
+   "cats": [
+    "sexuality"
+   ],
+   "ex": [
+    {
+     "tlag": "Go to horny jail!",
+     "gloss": "IMP-go jail horny to"
+    }
+   ]
+  },
+  {
+   "t": "polox",
+   "en": "apple",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Portukes",
+   "en": "Portuguese language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "postaali",
+   "en": "cuttlefish",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "pozmo",
+   "en": "wall",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "puko",
+   "en": "grape",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "pukogot",
+   "en": "glucose",
+   "pos": "Noun",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "pulkoki",
+   "en": "bulgogi",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "pulv",
+   "en": "flower",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "botany"
+   ]
+  },
+  {
+   "t": "pumi",
+   "en": "bread",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "puro",
+   "en": "small",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "pus",
+   "en": "thing",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "pustor",
+   "en": "stairs",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "puxe",
+   "en": "to go, to come",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "pvjox",
+   "en": "darkness",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Pvsto",
+   "en": "Pashto language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "raakotsaa",
+   "en": "ape",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "raakotsaamvzu",
+   "en": "primate",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "raaku",
+   "en": "nest",
+   "pos": "Noun"
+  },
+  {
+   "t": "raam",
+   "en": "age",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "how old are you?",
+     "gloss": "you.GEN age how.many"
+    }
+   ]
+  },
+  {
+   "t": "raamen",
+   "en": "ramen",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "raja",
+   "ety": "from Raya",
+   "enHtml": "<span class=muted>(meaning not recorded)</span>"
+  },
+  {
+   "t": "ramzi",
+   "en": "raw",
+   "pos": "Noun",
+   "ety": "from Gordon Ramsay"
+  },
+  {
+   "t": "raubu",
+   "en": "clothes",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "regas",
+   "en": "yoke",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "reke",
+   "en": "to dance",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "rekenaa",
+   "en": "dance",
+   "pos": "Noun"
+  },
+  {
+   "t": "respu",
+   "en": "turtle",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "ribu",
+   "en": "finger",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "rohes",
+   "en": "medicine",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Romvna",
+   "en": "Romanian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "roti",
+   "en": "roti",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "roxsaa",
+   "en": "cake",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "ruje",
+   "en": "barley"
+  },
+  {
+   "t": "rusine",
+   "en": "nipple",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "rusinemic imoc",
+   "en": "areola (of the nipple, lit. garden of the nipple)",
+   "pos": "Noun",
+   "ety": "calque of Latin areola",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "ruskaat",
+   "en": "sea urchin",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Ruski",
+   "en": "Russian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "rustsu",
+   "en": "snow",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "weather"
+   ]
+  },
+  {
+   "t": "saab",
+   "en": "fur",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "saabxeu",
+   "en": "furry",
+   "pos": "Verb"
+  },
+  {
+   "t": "saag",
+   "en": "onion",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "okvr saag camu",
+     "en": "ogres are like onions"
+    }
+   ]
+  },
+  {
+   "t": "saakeputs",
+   "en": "to cause to fall, to trip",
+   "pos": "Verb"
+  },
+  {
+   "t": "saakepv",
+   "en": "to fall",
+   "pos": "Verb",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "I've fallen and can't get up!",
+     "gloss": "PER fall.PRS and can-NEG get.up"
+    }
+   ]
+  },
+  {
+   "t": "saalaataa",
+   "en": "salad",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "saawaarmaa",
+   "en": "shawarma",
+   "pos": "Noun",
+   "ety": "from Arabic",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "shawarma with extra tahini",
+     "gloss": "shawarma tahini extra with"
+    }
+   ]
+  },
+  {
+   "t": "saaxen",
+   "en": "near, close",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "saaxmaat",
+   "en": "chess",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "games"
+   ]
+  },
+  {
+   "t": "sagin",
+   "en": "cheese",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "saksofon",
+   "en": "saxophone",
+   "pos": "Noun",
+   "ety": "from English saxophone",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "t": "samits",
+   "en": "sandwich",
+   "pos": "Noun",
+   "ety": "from English sandwich",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "segen",
+   "en": "life",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "biology"
+   ]
+  },
+  {
+   "t": "segenirisir",
+   "en": "biology",
+   "pos": "Noun"
+  },
+  {
+   "t": "segenmvzu",
+   "en": "lifelike, animate",
+   "pos": "Adjective"
+  },
+  {
+   "t": "segentikitliriris",
+   "en": "biochemistry",
+   "pos": "Noun"
+  },
+  {
+   "t": "si",
+   "en": "man, male",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "Not just the men, but the women and children too!"
+    }
+   ]
+  },
+  {
+   "t": "Sighaalaa",
+   "en": "Sinhala language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "sikv",
+   "en": "to get, obtain, acquire",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "silaan",
+   "en": "snake",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "simic jup tloi",
+   "en": "old man yaoi",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "Sinti",
+   "en": "Sindhi language",
+   "pos": "Proper noun",
+   "ety": "from Sindhi",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "siratsa",
+   "en": "sriracha",
+   "pos": "Noun",
+   "ety": "from Thai",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "siro",
+   "en": "male",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "siromaaki",
+   "en": "masculine",
+   "pos": "Adjective"
+  },
+  {
+   "t": "somu",
+   "en": "peace",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "soraati",
+   "en": "womb, uterus",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "soraatimic mutsv",
+   "en": "menstruation (humorous, lit. uterus' wrath)",
+   "pos": "Noun"
+  },
+  {
+   "t": "soraatitik",
+   "en": "cervix (lit. uterus neck)",
+   "pos": "Noun",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "sotro",
+   "en": "Bactrian camel",
+   "pos": "Noun",
+   "ety": "from Persian شتر",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "soxv",
+   "en": "grass",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "botany"
+   ],
+   "ex": [
+    {
+     "tlag": "imvlapaa soxvhv",
+     "en": "go touch grass"
+    }
+   ]
+  },
+  {
+   "t": "soxvupaakepaali",
+   "en": "gamer (derogatory, lit. grass avoider)",
+   "pos": "Noun"
+  },
+  {
+   "t": "soxv upaakepaali",
+   "en": "gamer (lit. grass avoider)",
+   "ex": [
+    {
+     "tlag": "I'm going to do what’s called a pro gamer move"
+    }
+   ]
+  },
+  {
+   "t": "suhvs",
+   "en": "to swim",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "sum",
+   "en": "good, noble, good-quality",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "sumaar",
+   "en": "sick, ill",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "sumaarcimu",
+   "en": "hospital",
+   "pos": "Noun"
+  },
+  {
+   "t": "sumhek",
+   "en": "to hunt",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "sumhekpaali",
+   "en": "hunter",
+   "pos": "Noun"
+  },
+  {
+   "t": "sunaag",
+   "en": "to live, to be alive",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "Suomi",
+   "en": "Finnish language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "susi",
+   "en": "sushi",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "susit",
+   "en": "to wash",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "svrek",
+   "en": "sexy",
+   "pos": "Adjective",
+   "ety": "from Shrek",
+   "cats": [
+    "sexuality"
+   ]
+  },
+  {
+   "t": "svtailvrpaali",
+   "en": "computational linguist"
+  },
+  {
+   "t": "svtol",
+   "en": "Klein bottle",
+   "pos": "Noun",
+   "ety": "from Clifford Stoll",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "Svuensvkaa",
+   "en": "Swedish language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "svxo",
+   "en": "ash",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "svxoxeu",
+   "en": "ashy, grey/gray",
+   "pos": "Adjective",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "taagv",
+   "en": "big",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "taagvzvk",
+   "en": "dragon",
+   "pos": "Noun"
+  },
+  {
+   "t": "taahinv",
+   "en": "tahini",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "taak",
+   "en": "pants",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "taak",
+   "en": "to knock",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "taako",
+   "en": "taco",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "taamaale",
+   "en": "tamale",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "taames",
+   "en": "morning",
+   "pos": "Noun",
+   "ety": "a priori)"
+  },
+  {
+   "t": "taames kopo kepitlzime",
+   "en": "Ohio",
+   "pos": "Proper noun",
+   "ety": "lit.  morning state, pun on Japanese おはよう (ohayō)"
+  },
+  {
+   "t": "Taataar",
+   "en": "Tatar language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "taato",
+   "en": "soybean",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "taaxv",
+   "en": "alkane",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "Taj",
+   "en": "Thai language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Tansv",
+   "en": "Danish language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tansv",
+   "en": "gibberish",
+   "pos": "Noun",
+   "ety": "from Danish dansk",
+   "ex": [
+    {
+     "tlag": "vm iko tansvm - It's Greek to me",
+     "gloss": "me DAT Danish"
+    }
+   ]
+  },
+  {
+   "t": "tapir",
+   "en": "tapir",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Tari",
+   "en": "Dari language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tate",
+   "en": "milk",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Teluku",
+   "en": "Telugu language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "texet",
+   "en": "iron",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "tifv",
+   "en": "heart",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tiizumsig",
+   "en": "tetrahedron",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tik",
+   "en": "neck",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tikitl",
+   "en": "to change, to transform (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tikitlir",
+   "en": "change, transformation",
+   "pos": "Noun"
+  },
+  {
+   "t": "tikitliriris",
+   "en": "chemistry",
+   "pos": "Noun",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "tikitltso",
+   "en": "to change, to transform (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "tikmic zaakren",
+   "en": "neckbeard (person)",
+   "pos": "Noun"
+  },
+  {
+   "t": "tipi",
+   "en": "three",
+   "pos": "Numeral",
+   "ety": "a priori",
+   "cats": [
+    "numbers"
+   ]
+  },
+  {
+   "t": "tipitsig",
+   "en": "pyramid",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tipizum",
+   "en": "triangle",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tiris",
+   "en": "vehicle, car",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tiris laonus",
+   "en": "airplane",
+   "pos": "Noun"
+  },
+  {
+   "t": "tisvm",
+   "en": "upright, perpendicular, orthogonal",
+   "pos": "Adjective",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "titsepi",
+   "en": "conlang",
+   "pos": "Noun",
+   "ety": "from DJP (David J. Peterson)",
+   "cats": [
+    "linguistics"
+   ]
+  },
+  {
+   "t": "Tlag",
+   "en": "Tlag language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tlarin",
+   "en": "red",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "tlaxaa",
+   "en": "to take",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tlicu",
+   "en": "lightning, electricity",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "weather"
+   ]
+  },
+  {
+   "t": "tlicugaa",
+   "en": "computer",
+   "pos": "Noun"
+  },
+  {
+   "t": "tlicugaairis",
+   "en": "computer science",
+   "pos": "Noun"
+  },
+  {
+   "t": "tlicuxeu",
+   "en": "electric",
+   "pos": "Adjective"
+  },
+  {
+   "t": "tlikv",
+   "en": "crab",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "Reject humanity, become crab"
+    }
+   ]
+  },
+  {
+   "t": "tlipu",
+   "en": "bird",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "tloi",
+   "en": "yaoi",
+   "pos": "Noun",
+   "ety": "from Troy",
+   "cats": [
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "nunumaateke ninv tloihv vm",
+     "en": "I enjoy reading yaoi"
+    }
+   ]
+  },
+  {
+   "t": "tloipaali",
+   "en": "gay person (lit. doer of yaoi)",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "tloixung",
+   "en": "yaoislop",
+   "pos": "Noun",
+   "cats": [
+    "fandom"
+   ]
+  },
+  {
+   "t": "tlokip",
+   "en": "oat"
+  },
+  {
+   "t": "tlomo",
+   "en": "set (math)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tlugkotl",
+   "en": "coconut",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tlux",
+   "en": "ear",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tofu",
+   "en": "tofu",
+   "pos": "Noun",
+   "ety": "from Japanese",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Toitsv",
+   "en": "German language",
+   "pos": "Noun",
+   "ety": "from German Deutsch",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tolma",
+   "en": "dolma",
+   "pos": "Noun",
+   "ety": "from Turkish dolma",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tonkua",
+   "en": "winter melon",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "top",
+   "en": "mine",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "The children yearn for the mines.",
+     "gloss": "yearn child mine to"
+    }
+   ]
+  },
+  {
+   "t": "tor",
+   "en": "road, way",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tosaa",
+   "en": "to bind, to restrain",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tosaapaali alekcvpaalixeu",
+   "en": "carabiner (lit. lesbian shackle/binder)",
+   "pos": "Noun"
+  },
+  {
+   "t": "tosaax",
+   "en": "sorghum"
+  },
+  {
+   "t": "tosaj",
+   "en": "dosa",
+   "pos": "Noun",
+   "ety": "from Tamil தோசை (tōcai)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Totsik",
+   "en": "Tajik language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tsaa",
+   "en": "tea",
+   "pos": "Noun",
+   "ety": "from Mandarin 茶",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsaagjo",
+   "en": "soy sauce",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsaanok",
+   "en": "left",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsaaptse",
+   "en": "japchae",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsane",
+   "en": "tooth, fang",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tsanetsolaampaali",
+   "en": "dentist",
+   "pos": "Noun"
+  },
+  {
+   "t": "tse",
+   "en": "woman"
+  },
+  {
+   "t": "tseli",
+   "en": "female",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "tselimaaki",
+   "en": "feminine",
+   "pos": "Adjective"
+  },
+  {
+   "t": "tselimaakitoro",
+   "en": "femboy",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "tselitsolaamiriris",
+   "en": "gynecology",
+   "pos": "Noun"
+  },
+  {
+   "t": "tselitsolaampaali",
+   "en": "gynecologist",
+   "pos": "Noun"
+  },
+  {
+   "t": "tsestvrfitl",
+   "en": "sofa",
+   "pos": "Noun",
+   "ety": "from English Chesterfield",
+   "cats": [
+    "furniture"
+   ]
+  },
+  {
+   "t": "tsiko",
+   "en": "face",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsim",
+   "en": "garlic",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsimaar",
+   "en": "to nap",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsimmic pumipaali",
+   "en": "asexual person (lit. doer of garlic bread)",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "tsimpumi",
+   "en": "garlic bread",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsimpumipaali",
+   "en": "aromantic person",
+   "pos": "Noun",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "tsokolaatl",
+   "en": "chocolate",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tsolaam",
+   "en": "to heal (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsolaampaali",
+   "en": "healer, doctor, physician",
+   "pos": "Noun"
+  },
+  {
+   "t": "tsolaamtso",
+   "en": "to heal (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "tsorvp",
+   "en": "sock",
+   "pos": "Noun",
+   "ety": "from Persian جوراب (jōrāb)",
+   "cats": [
+    "clothing"
+   ]
+  },
+  {
+   "t": "tsouo",
+   "en": "Javanese language",
+   "pos": "Noun",
+   "ety": "From Javanese jawa",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tsug",
+   "en": "wood",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsugtsvmpaali",
+   "en": "termite (lit. wood eater)",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "tsujugku",
+   "en": "set of complex numbers",
+   "pos": "Noun"
+  },
+  {
+   "t": "tsvgvs",
+   "en": "rabbit",
+   "pos": "Noun",
+   "ety": "from Big Chungus",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "tsvgvsmvzu",
+   "en": "lagomorph",
+   "pos": "Adjective",
+   "cats": [
+    "taxonomy"
+   ]
+  },
+  {
+   "t": "tsvkumpuhu",
+   "en": "isomorphism, congruent",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tsvm",
+   "en": "to eat",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tsvpvti",
+   "en": "chapati",
+   "pos": "Noun",
+   "ety": "from Hindustani",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tubv",
+   "en": "milk",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tubvxeu",
+   "en": "milky, dairy",
+   "pos": "Adjective"
+  },
+  {
+   "t": "tugil",
+   "en": "bottle",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tukaa",
+   "en": "pumpkin, squash",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "Gv puxe taagvzvk bvg.",
+     "en": "The dragon has come to the shrimp.\n(calque of VI rồng đến nhà tôm)"
+    }
+   ]
+  },
+  {
+   "t": "tukcvt",
+   "en": "chicken pox",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "pathology"
+   ]
+  },
+  {
+   "t": "tulsi",
+   "en": "holy basil",
+   "pos": "Noun",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "tulvr",
+   "en": "pregnancy",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tulvrtsolaampaali",
+   "en": "obstetrician",
+   "pos": "Noun"
+  },
+  {
+   "t": "tulvrxeu",
+   "en": "pregnant",
+   "pos": "Noun"
+  },
+  {
+   "t": "tulvrxeu'uno",
+   "en": "pregnancy",
+   "pos": "Noun"
+  },
+  {
+   "t": "tumbvk",
+   "en": "boat",
+   "pos": "Noun",
+   "ety": "a priori",
+   "ex": [
+    {
+     "tlag": "To show you the power of Flex tape, I sawed this boat in half!"
+    }
+   ]
+  },
+  {
+   "t": "tume",
+   "en": "wheat",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tumic",
+   "en": "breast, bosom",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tumsaa",
+   "en": "colon (organ)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tumus",
+   "en": "oven",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tumv",
+   "en": "soul, spirit, self",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "tumvipaaspustor",
+   "en": "escalator (lit. self-moving stairs)",
+   "pos": "Noun"
+  },
+  {
+   "t": "tumviris",
+   "en": "psychology",
+   "pos": "Noun"
+  },
+  {
+   "t": "tumvmic etsepaali",
+   "en": "eigenvector (lit. vector of self)",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "tumvrohesiris",
+   "en": "psychiatry",
+   "pos": "Noun"
+  },
+  {
+   "t": "tunv",
+   "en": "to work, to labor",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "tuoligo",
+   "en": "evil green owl"
+  },
+  {
+   "t": "tupaa",
+   "en": "buffalo",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Turkvtse",
+   "en": "Turkish language",
+   "pos": "Proper noun",
+   "ety": "from Turkish türkçe",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Turvkmvn",
+   "en": "Turkmen language",
+   "pos": "Proper noun",
+   "ety": "from Turkmen",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tusam",
+   "en": "body",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tusamiris",
+   "en": "anatomy",
+   "pos": "Noun",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "tusamirisxeu",
+   "en": "anatomical",
+   "pos": "Adjective"
+  },
+  {
+   "t": "tusamxeu",
+   "en": "bodily, corporeal",
+   "pos": "Adjective"
+  },
+  {
+   "t": "tusi",
+   "en": "chrysanthemum",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "Tvmil",
+   "en": "Tamil language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "tvmvtv",
+   "en": "tomato",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "tvntur",
+   "en": "tandoor",
+   "pos": "Noun",
+   "ety": "from Persian تندور"
+  },
+  {
+   "t": "tvtse",
+   "en": "car, automobile",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "transportation"
+   ]
+  },
+  {
+   "t": "u",
+   "en": "and",
+   "pos": "Conjunction",
+   "ety": "a priori"
+  },
+  {
+   "t": "uak",
+   "en": "duck",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic"
+  },
+  {
+   "t": "uberit",
+   "en": "pie",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "ucuk",
+   "en": "egg (ovum, closeted transgender person)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "biology",
+    "food and drink",
+    "LGBTQ"
+   ],
+   "ex": [
+    {
+     "tlag": "You're telling me an egg fried this rice?",
+     "gloss": "INT tell 1P.ACC REL egg PAST-fry this rice-DEF.ACC"
+    }
+   ]
+  },
+  {
+   "t": "ucukraaku",
+   "en": "ovary",
+   "pos": "Noun",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "ugso",
+   "en": "knee",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "uiskaansin",
+   "en": "cheese curd",
+   "pos": "Noun",
+   "ety": "from Wisconsin",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Uixurtse",
+   "en": "Uyghur languge",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "Ukrajinsvkv",
+   "en": "Ukrainian language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "umaas",
+   "en": "to sell, to betray",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "umaaspaali",
+   "en": "merchant, traitor"
+  },
+  {
+   "t": "umaax",
+   "en": "death (concept)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "umis",
+   "en": "back part, back of body",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "umizv",
+   "en": "husband",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "umizvu",
+   "en": "husbando",
+   "pos": "Noun"
+  },
+  {
+   "t": "umo",
+   "en": "mouth",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "umus",
+   "en": "far, distant",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "umusiz",
+   "en": "TV (shortening of umusizumpaali)",
+   "pos": "Noun"
+  },
+  {
+   "t": "umusizumpaali",
+   "en": "television",
+   "pos": "Noun"
+  },
+  {
+   "t": "umuskaas",
+   "en": "phone (shortening of umuskaasopaali)",
+   "pos": "Noun"
+  },
+  {
+   "t": "umuskaasagari",
+   "en": "to make a phone call",
+   "pos": "Verb",
+   "ex": [
+    {
+     "tlag": "Please call Stella"
+    }
+   ]
+  },
+  {
+   "t": "umuskaasopaali",
+   "en": "telephone",
+   "pos": "Noun"
+  },
+  {
+   "t": "umuskaasopaaliagari",
+   "en": "to make a phone call",
+   "pos": "Verb"
+  },
+  {
+   "t": "umvs",
+   "en": "hunger",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "upaake",
+   "en": "to avoid",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "upilaa",
+   "en": "worm",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "Would you still love me if i were a worm?"
+    }
+   ]
+  },
+  {
+   "t": "urtikos",
+   "en": "mussel",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "Urtu",
+   "en": "Urdu language",
+   "pos": "Proper noun",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "uvk",
+   "en": "wug",
+   "pos": "Noun",
+   "ety": "from English wug",
+   "cats": [
+    "linguistics"
+   ],
+   "ex": [
+    {
+     "tlag": "This is a wug."
+    }
+   ]
+  },
+  {
+   "t": "ux",
+   "en": "sugar cane",
+   "pos": "Noun",
+   "ety": "from Hindustani उख (ukh)",
+   "cats": [
+    "food and drink",
+    "organisms"
+   ]
+  },
+  {
+   "t": "uxaat",
+   "en": "to finish, to complete",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "uxaatmek",
+   "en": "finished, complete, perfective",
+   "pos": "Adjective",
+   "cats": [
+    "linguistics"
+   ]
+  },
+  {
+   "t": "uxaatmekjol",
+   "en": "unfinished, incomplete, imperfective",
+   "pos": "Adjective",
+   "cats": [
+    "linguistics"
+   ]
+  },
+  {
+   "t": "uxgot",
+   "en": "sucrose",
+   "pos": "Noun",
+   "cats": [
+    "chemistry"
+   ]
+  },
+  {
+   "t": "Uzbek",
+   "en": "Uzbek language",
+   "pos": "Proper noun",
+   "ety": "from Uzbek",
+   "cats": [
+    "languages"
+   ]
+  },
+  {
+   "t": "vjorogko",
+   "en": "fetish, paraphilia",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "vkusnaa",
+   "en": "chest (body part)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "vlixon",
+   "en": "window",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "vlixonleg",
+   "en": "to defenestrate",
+   "pos": "Verb"
+  },
+  {
+   "t": "vlu",
+   "en": "plum",
+   "pos": "Noun",
+   "ety": "from Persian آلو",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "Vmuxkoxozime",
+   "en": "United States (lit. my chicken country)",
+   "pos": "Proper noun",
+   "ety": "translingual pun on Shanghainese 美國 (5me koq) which sounds like 'my cock'"
+  },
+  {
+   "t": "vsaataag",
+   "en": "sine function",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "xaacaapuri",
+   "en": "khachapuri",
+   "pos": "Noun",
+   "ety": "from Georgian ხაჭაპური",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "xaag",
+   "en": "goose",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "xaaki",
+   "en": "khaki color, khaki pants",
+   "pos": "Noun",
+   "ety": "from Hindustani ख़ाकी/خاکی (khākī)",
+   "cats": [
+    "colors",
+    "clothing"
+   ]
+  },
+  {
+   "t": "xaal",
+   "en": "hot",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "xaalaa",
+   "en": "challah",
+   "pos": "Noun",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "xaamtaa",
+   "en": "wax",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "xaamtaa'agari",
+   "en": "to wax (to remove body hair)",
+   "pos": "Verb"
+  },
+  {
+   "t": "xaarof",
+   "en": "bear",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms",
+    "LGBTQ"
+   ]
+  },
+  {
+   "t": "xaarof xucnaamiakux",
+   "en": "giant panda",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "xabut",
+   "en": "whale",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "xigaci",
+   "en": "color",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "xigacimic murotaa",
+   "en": "rainbow",
+   "pos": "Noun"
+  },
+  {
+   "t": "xijaai",
+   "en": "light (illumination)",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "xijaairekenaa",
+   "en": "aurora (lit. light dance)",
+   "pos": "Noun"
+  },
+  {
+   "t": "xijum",
+   "en": "pain",
+   "pos": "Noun",
+   "ety": "from HUM (Revelle Humanities)"
+  },
+  {
+   "t": "xijumleg",
+   "en": "to hurt (transitive), to harm",
+   "pos": "Verb"
+  },
+  {
+   "t": "xijumlegtso",
+   "en": "to hurt (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "xijumxeu",
+   "en": "painful",
+   "pos": "Adjective"
+  },
+  {
+   "t": "xog",
+   "en": "pig",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic",
+   "cats": [
+    "organisms",
+    "food and drink"
+   ]
+  },
+  {
+   "t": "xolim",
+   "en": "set of rational numbers",
+   "pos": "Noun",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "xubzv",
+   "en": "pita",
+   "pos": "Noun",
+   "ety": "from Arabic خبز",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "xucna",
+   "en": "black",
+   "pos": "Adjective",
+   "ety": "a priori",
+   "cats": [
+    "colors"
+   ]
+  },
+  {
+   "t": "xug",
+   "en": "slop, poor quality content"
+  },
+  {
+   "t": "xumitl",
+   "en": "nostril",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "xumos",
+   "en": "to dry (transitive)",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "xumostso",
+   "en": "to dry (intransitive)",
+   "pos": "Verb"
+  },
+  {
+   "t": "xumsir",
+   "en": "shadow, projection",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ]
+  },
+  {
+   "t": "xurol",
+   "en": "uvula",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "xurolxeu",
+   "en": "uvular",
+   "pos": "Adjective",
+   "cats": [
+    "anatomy",
+    "linguistics"
+   ]
+  },
+  {
+   "t": "xvl",
+   "en": "to laugh",
+   "pos": "Verb",
+   "ety": "a priori"
+  },
+  {
+   "t": "zaage",
+   "en": "chin",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "zaak",
+   "en": "beard",
+   "pos": "Noun",
+   "ety": "from Hebrew זקן (zakan)",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "zaancinaa",
+   "en": "chili sauce",
+   "pos": "Noun",
+   "ety": "from John Cena",
+   "cats": [
+    "food and drink"
+   ],
+   "ex": [
+    {
+     "tlag": "This is really good chili sauce",
+     "gloss": "this chili.sauce very"
+    }
+   ]
+  },
+  {
+   "t": "zaun",
+   "en": "plant",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "anatomy"
+   ]
+  },
+  {
+   "t": "zauniris",
+   "en": "botany",
+   "pos": "Noun"
+  },
+  {
+   "t": "zet",
+   "en": "olive",
+   "pos": "Noun",
+   "ety": "from Hebrew זית (zayit)",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "zi",
+   "en": "oh.. hi... it's you...",
+   "pos": "Interjection",
+   "ety": "a priori",
+   "cats": [
+    "phrases"
+   ],
+   "ex": [
+    {
+     "tlag": "zi Maarkv - Oh hi Mark",
+     "gloss": "oh.hi.it's.you Mark"
+    }
+   ]
+  },
+  {
+   "t": "zihoro",
+   "en": "nth root (square root, cube root etc)",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "mathematics"
+   ],
+   "ex": [
+    {
+     "tlag": "zihoro kujan",
+     "en": "square root"
+    }
+   ]
+  },
+  {
+   "t": "zime",
+   "en": "land, country",
+   "pos": "Noun",
+   "ety": "a priori"
+  },
+  {
+   "t": "zixor",
+   "en": "leech",
+   "pos": "Noun",
+   "ety": "a priori",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "zizi",
+   "en": "what's up",
+   "pos": "Interjection",
+   "ety": "a priori",
+   "cats": [
+    "phrases"
+   ]
+  },
+  {
+   "t": "zizizi",
+   "en": "hi",
+   "pos": "Interjection",
+   "ety": "a priori",
+   "cats": [
+    "phrases"
+   ]
+  },
+  {
+   "t": "zizizizi",
+   "en": "hello",
+   "pos": "Interjection",
+   "ety": "a priori",
+   "cats": [
+    "phrases"
+   ]
+  },
+  {
+   "t": "zizizizizi",
+   "en": "hey bbg wsg",
+   "pos": "Interjection",
+   "ety": "a priori",
+   "cats": [
+    "phrases"
+   ]
+  },
+  {
+   "t": "zoko",
+   "en": "strong",
+   "pos": "Adjective",
+   "ety": "a priori"
+  },
+  {
+   "t": "zokuej",
+   "en": "cassia (cinnamomum cassia)",
+   "pos": "Noun",
+   "ety": "from Mandarin 肉桂",
+   "cats": [
+    "food and drink"
+   ]
+  },
+  {
+   "t": "zonsv",
+   "en": "frog",
+   "pos": "Noun",
+   "ety": "from Alex Jones",
+   "cats": [
+    "organisms"
+   ],
+   "ex": [
+    {
+     "tlag": "I don't like them putting chemicals in the water that turn the fricking frogs gay!",
+     "gloss": "like-not that.COMP IRR-put chemical water in that.REL turn fricking frog gay"
+    }
+   ]
+  },
+  {
+   "t": "zvfvzv",
+   "en": "bee",
+   "pos": "Noun",
+   "ety": "a priori, onomatopoeic",
+   "cats": [
+    "phrases"
+   ],
+   "ex": [
+    {
+     "tlag": "Ben itlaajol bi zvfvzu nijatlv",
+     "en": "nilaon. - There is no way that a bee should be able to fly.",
+     "gloss": "hypothetically exist-not that.REL bee IRR-can IRR-fly"
+    }
+   ]
+  },
+  {
+   "t": "zvk",
+   "en": "lizard",
+   "pos": "Noun",
+   "ety": "from Mark Zuckerberg",
+   "cats": [
+    "organisms"
+   ]
+  },
+  {
+   "t": "zvk alekcvpaalixeu",
+   "en": "New Mexico whiptail lizard",
+   "pos": "Noun",
+   "cats": [
+    "organisms"
+   ]
+  }
+ ],
+ "todo": [
+  "Aurora Australis",
+  "Aurora Borealis",
+  "boymode",
+  "boymoder",
+  "cringe",
+  "demisexual person",
+  "fudanshi",
+  "fujoshi",
+  "girlmode",
+  "girlmoder",
+  "heterosexual person",
+  "hetgem",
+  "hetslop",
+  "himedanshi",
+  "himejoshi",
+  "poopoo",
+  "reductive",
+  "revenge bedtime procrastination",
+  "terrible, deplorable",
+  "to boymode",
+  "to come hither",
+  "to come/go whither",
+  "to girlmode",
+  "to go thither",
+  "yaoigem",
+  "yurigem",
+  "tone tag: calm",
+  "tone tag: jocular dismissive",
+  "tone tag: affecionate/bashful",
+  "tone tag: dismay",
+  "tone tag: humorous mirative",
+  "tone tag: suspicion/condescending",
+  "tone tag: negative",
+  "conjunctions: because",
+  "interrogatives: to go whither",
+  "interrogatives: to go whence",
+  "deictic markers: corporeal / proprioceptive",
+  "deictic markers: earshot",
+  "deictic markers: in the same structure",
+  "days of the week",
+  "months",
+  "number: forty-one"
+ ]
+}

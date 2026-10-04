@@ -40,15 +40,42 @@
   var q = document.getElementById('q'), pos = document.getElementById('pos'), cat = document.getElementById('cat');
   var count = document.getElementById('count');
   function apply() {
-    var term = q.value.trim().toLowerCase(), shown = 0;
+    var term = q.value.trim().toLowerCase(), shown = 0, first = null;
     items.forEach(function (li) {
       var ok = (!term || li.dataset.t.indexOf(term) > -1 || li.dataset.e.indexOf(term) > -1) &&
                (!pos.value || li.dataset.pos === pos.value) &&
                (!cat.value || ('|' + li.dataset.cat + '|').indexOf('|' + cat.value + '|') > -1);
       li.hidden = !ok;
-      if (ok) shown++;
+      if (ok) { shown++; if (!first) first = li; }
     });
     count.textContent = shown === items.length ? items.length + ' entries' : shown + ' of ' + items.length + ' entries';
+    return first;
   }
   [q, pos, cat].forEach(function (el) { el.addEventListener('input', apply); });
+
+  // deep link from word-of-the-day: gloss/?w=<tlag word> filters to that word
+  try {
+    var w = new URLSearchParams(location.search).get('w');
+    if (w) {
+      document.querySelectorAll('.tabs button').forEach(function (b) {
+        var on = b.getAttribute('aria-controls') === 'p-dict';
+        b.setAttribute('aria-selected', on);
+        document.getElementById(b.getAttribute('aria-controls')).hidden = !on;
+      });
+      q.value = w;
+      var hit = apply();
+      // prefer the exact word over a mere substring match
+      var term = q.value.trim().toLowerCase();
+      items.forEach(function (li) {
+        if (!li.hidden && li.dataset.t === term) hit = li;
+      });
+      if (hit) {
+        hit.scrollIntoView({ block: 'center' });
+        hit.classList.add('entry--flash');
+        setTimeout(function () { hit.classList.remove('entry--flash'); }, 2400);
+      }
+    }
+  } catch (err) {
+    /* URLSearchParams unsupported: ignore deep link */
+  }
 })();

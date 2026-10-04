@@ -129,3 +129,33 @@ html.is-standalone .standalone-only{ display:block; }
 .todo{ margin-top:30px; background:#fff; border:2px dashed var(--ink); border-radius:8px; padding:10px 16px; }
 .todo summary{ cursor:pointer; font-family:var(--font-display); font-weight:600; }
 @media (max-width:560px){ .entry{ grid-template-columns:1fr; } .embed{ padding:16px 14px 24px; } }
+
+/* word of the day */
+.wotd-card{ min-height:220px; }
+.wotd-card .wotd-loading, .wotd-card .wotd-error{ color:#5a3a58; margin:0; }
+.wotd-top{ display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.wotd-date{ margin-bottom:0; }
+.wotd-nav{ display:inline-flex; gap:6px; }
+.wotd-btn{ font:600 .85rem var(--font-display); color:var(--ink); background:#fff; border:2px solid var(--ink); border-radius:8px; padding:4px 12px; cursor:pointer; }
+.wotd-btn:hover:not(:disabled){ background:var(--gold); }
+.wotd-btn:disabled{ opacity:.35; cursor:default; }
+.wotd-btn--text[aria-pressed="true"]{ background:var(--gold); }
+.wotd-word{ font-size:2rem; line-height:1.1; }
+.wotd-meta{ display:flex; flex-wrap:wrap; gap:4px 12px; align-items:baseline; margin-top:4px; font-size:.9rem; color:#5a3a58; }
+.wotd-meta .pos{ margin-top:0; }
+.wotd-cats{ font-size:.85rem; }
+.wotd-en{ font-size:1.15rem; font-weight:600; margin:.6em 0 .2em; }
+.wotd-ety{ font-size:.9rem; font-style:italic; color:#5a3a58; margin:0 0 .4em; }
+.wotd-ex{ margin-top:10px; padding-left:12px; border-left:4px solid var(--gold); }
+.wotd-ex p{ margin:0; }
+.wotd-ex-t{ font-weight:600; }
+.wotd-ex-e{ font-style:italic; color:#5a3a58; font-size:.92rem; }
+.wotd-ex-g{ font-family:'Noto Sans','DejaVu Sans',monospace; font-size:.8rem; color:#7a6478; }
+.wotd-actions{ display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin-top:14px; padding-top:12px; border-top:2px solid rgba(23,17,15,.12); }
+.wotd-link{ font-family:var(--font-display); font-weight:600; font-size:.9rem; margin-left:auto; }
+.wotd-recent{ margin:10px 0 0; font-size:.85rem; color:#5a3a58; }
+.wotd-chip{ font:500 .8rem var(--font-body); background:#FFE9A8; border:1.5px solid var(--ink); border-radius:999px; padding:1px 10px; cursor:pointer; }
+.wotd-chip:hover{ background:var(--gold); }
+.wotd-strip{ background:#fff; border:2px solid var(--ink); border-radius:8px; padding:8px 14px; margin:0 0 14px; font-size:.95rem; }
+.wotd-strip a{ font-weight:500; }
+.entry--flash{ outline:3px solid var(--gold); outline-offset:2px; }
