@@ -1,29 +1,42 @@
-// tlag word of the day: deterministic pick by UTC date, caches into localstorage
+// tlag word of the day: deterministic pick by Pacific date (America/Los_Angeles), caches into localstorage
 (function () {
   'use strict';
 
   var LS_DICT = 'tlag.dict.v1';
   var LS_STATE = 'tlag.wotd.v1';
+  var WOTD_TZ = 'America/Los_Angeles';
 
-  function todayKeyUTC(d) {
+  function todayKeyPST(d) {
     d = d || new Date();
-    return d.toISOString().slice(0, 10); // YYYY-MM-DD, UTC so everyone shares a day
+    try {
+      // en-CA yields YYYY-MM-DD in the given time zone, so everyone shares the Pacific day
+      return new Intl.DateTimeFormat('en-CA', {
+        timeZone: WOTD_TZ, year: 'numeric', month: '2-digit', day: '2-digit'
+      }).format(d);
+    } catch (err) {
+      // Fallback to fixed UTC-8 (PST) if the Intl time zone is unavailable
+      return new Date(d.getTime() - 8 * 3600 * 1000).toISOString().slice(0, 10);
+    }
   }
 
   function parseKey(key) {
-    return new Date(key + 'T00:00:00Z');
+    // Noon UTC anchors the calendar date so formatting in Pacific TZ never shifts the day
+    return new Date(key + 'T12:00:00Z');
   }
 
   function shiftKey(key, days) {
-    var d = parseKey(key);
-    d.setUTCDate(d.getUTCDate() + days);
-    return todayKeyUTC(d);
+    // Shift by calendar days in Pacific time: operate on the YYYY-MM-DD parts directly
+    var parts = String(key).split('-');
+    var d = new Date(Date.UTC(+parts[0], +parts[1] - 1, +parts[2] + days));
+    var mm = ('0' + (d.getUTCMonth() + 1)).slice(-2);
+    var dd = ('0' + d.getUTCDate()).slice(-2);
+    return d.getUTCFullYear() + '-' + mm + '-' + dd;
   }
 
   function prettyKey(key) {
     try {
       return parseKey(key).toLocaleDateString(undefined, {
-        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: WOTD_TZ
       });
     } catch (err) {
       return key;
@@ -175,7 +188,7 @@
           writeLS(LS_STATE, state);
           renderWidget(box, dict, state, key, today);
         } else if (act === 'copy') {
-          var text = 'tlag word of the day ' + key + ': ' + entry.t + ' — ' + (entry.en || '');
+          var text = 'tlag word of the day ' + key + ': ' + entry.t + ': ' + (entry.en || '');
           copyText(text, btn);
         }
       });
@@ -206,11 +219,11 @@
   }
 
   function renderStrip(el, dict) {
-    var key = todayKeyUTC();
+    var key = todayKeyPST();
     if (!dict.entries.length) return;
     var entry = pickForDate(dict.entries, key).entry;
     el.innerHTML = 'Word of the day (' + esc(key) + '): '
-      + '<a href="?w=' + encodeURIComponent(entry.t) + '"><strong class="tl">' + esc(entry.t) + '</strong> — ' + displayEn(entry) + '</a>';
+      + '<a href="?w=' + encodeURIComponent(entry.t) + '"><strong class="tl">' + esc(entry.t) + '</strong>: ' + displayEn(entry) + '</a>';
   }
 
   function fail(box, err) {
@@ -235,7 +248,7 @@
     Object.keys(urls).forEach(function (url) {
       loadDict(url).then(function (dict) {
         var state = loadState();
-        var today = todayKeyUTC();
+        var today = todayKeyPST();
         widgets.filter(function (el) {
           return (el.getAttribute('data-dict') || 'data/dictionary.json') === url;
         }).forEach(function (el) {
@@ -257,7 +270,8 @@
 
   // exposed for testing / debugging in the console
   window.TlagWotd = {
-    todayKeyUTC: todayKeyUTC,
+    todayKeyPST: todayKeyPST,
+    todayKeyUTC: todayKeyPST, // legacy alias
     shiftKey: shiftKey,
     hashStr: hashStr,
     pickForDate: pickForDate
