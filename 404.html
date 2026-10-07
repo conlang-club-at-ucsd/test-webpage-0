@@ -5,21 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page not found - Conlang Club @ UCSD</title>
 <meta name="description" content="Page not found — head back to Conlang Club at UC San Diego.">
-<link rel="icon" href="/assets/logo.png" type="image/webp">
+<link rel="icon" href="/assets/logo.png" type="image/png">
 <link rel="stylesheet" href="/styles.css">
 <meta property="og:title" content="Page not found - Conlang Club @ UCSD">
 <meta property="og:description" content="The page you're looking for doesn't exist. Head back home or browse member conlangs.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="/assets/logo.png">
-<meta property="og:url" content="/">
+<meta property="og:image" content="https://conlangatucsd.com/assets/logo.png">
+<meta property="og:url" content="https://conlangatucsd.com/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Page not found - Conlang Club @ UCSD">
 <meta name="twitter:description" content="The page you're looking for doesn't exist.">
-<meta name="twitter:image" content="/assets/logo.png">
+<meta name="twitter:image" content="https://conlangatucsd.com/assets/logo.png">
 </head>
 <body>
 
-<div data-include="header"></div>
+<div data-include="header">
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="/">
+      <img src="/assets/logo.png" alt="Conlang Club at UCSD logo" width="46" height="46" decoding="async">
+      <span class="brand-text">Conlang Club<span>@ UC San Diego</span></span>
+    </a>
+    <ul class="nav-links nav-links--static">
+      <li><a href="/">Home</a></li>
+      <li><a href="/tlag/">Tlag</a></li>
+      <li><a href="/about/">About Us</a></li>
+      <li><a href="/officers/">Officers</a></li>
+      <li><a href="/projects/">Member Projects</a></li>
+      <li><a href="/faq/">FAQ</a></li>
+      <li><a href="https://discord.gg/PdkpT26AHG">Join Discord</a></li>
+    </ul>
+  </nav>
+</header>
+</div>
 
 <main>
   <section class="error-page">
@@ -40,14 +58,14 @@
   </section>
 </main>
 
-<footer class="site-footer">
+<div data-include="footer">
+<footer class="site-footer site-footer--static">
   <div class="wrap">
-    <div class="footer-bottom" style="border-top:none; padding-top:0;">
-      <span>&copy; <span data-year>2026</span> Conlang Club @ UCSD</span>
-      <a href="https://discord.gg/PdkpT26AHG" target="_blank" rel="noopener">Join our Discord</a>
-    </div>
+    <p><strong style="color:#fff;">Conlang Club @ UCSD</strong><br><a href="/">Home</a> · <a href="/tlag/">Tlag</a> · <a href="/about/">About</a> · <a href="/officers/">Officers</a> · <a href="/projects/">Projects</a> · <a href="/faq/">FAQ</a> · <a href="https://discord.gg/PdkpT26AHG">Discord</a> · <a href="mailto:conlangclubatucsd@gmail.com">Email</a></p>
+    <p>&copy; <span data-year>2026</span> Conlang Club @ UCSD · <a href="https://discord.gg/PdkpT26AHG">Join our Discord</a></p>
   </div>
 </footer>
+</div>
 
 <script src="/script.js"></script>
 </body>

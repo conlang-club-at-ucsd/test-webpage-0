@@ -73,17 +73,18 @@ function renderPage({ slug, title, description, doc, source }) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${safeTitle} - Member Conlangs - Conlang Club @ UCSD</title>
 <meta name="description" content="${safeDesc}">
-<link rel="icon" href="../../assets/logo.png" type="image/webp">
+<link rel="icon" href="../../assets/logo.png" type="image/png">
 <link rel="stylesheet" href="../../styles.css">
+<link rel="canonical" href="https://conlangatucsd.com${pageUrl}">
 <meta property="og:title" content="${safeTitle} - Member Conlangs - Conlang Club @ UCSD">
 <meta property="og:description" content="${safeDesc}">
 <meta property="og:type" content="article">
-<meta property="og:image" content="/assets/logo.png">
-<meta property="og:url" content="${pageUrl}">
+<meta property="og:image" content="https://conlangatucsd.com/assets/logo.png">
+<meta property="og:url" content="https://conlangatucsd.com${pageUrl}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="${safeTitle} - Member Conlangs - Conlang Club @ UCSD">
 <meta name="twitter:description" content="${safeDesc}">
-<meta name="twitter:image" content="/assets/logo.png">
+<meta name="twitter:image" content="https://conlangatucsd.com/assets/logo.png">
 <style>
 .doc-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:36px;align-items:start}
 @media(max-width:900px){.doc-layout{grid-template-columns:1fr}}
@@ -121,7 +122,25 @@ function renderPage({ slug, title, description, doc, source }) {
 </head>
 <body>
 
-<div data-include="header"></div>
+<div data-include="header">
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="/">
+      <img src="/assets/logo.png" alt="Conlang Club at UCSD logo" width="46" height="46" decoding="async">
+      <span class="brand-text">Conlang Club<span>@ UC San Diego</span></span>
+    </a>
+    <ul class="nav-links nav-links--static">
+      <li><a href="/">Home</a></li>
+      <li><a href="/tlag/">Tlag</a></li>
+      <li><a href="/about/">About Us</a></li>
+      <li><a href="/officers/">Officers</a></li>
+      <li><a href="/projects/">Member Projects</a></li>
+      <li><a href="/faq/">FAQ</a></li>
+      <li><a href="https://discord.gg/PdkpT26AHG">Join Discord</a></li>
+    </ul>
+  </nav>
+</header>
+</div>
 
 <main>
 
@@ -153,7 +172,14 @@ ${toc}
 
 </main>
 
-<div data-include="footer"></div>
+<div data-include="footer">
+<footer class="site-footer site-footer--static">
+  <div class="wrap">
+    <p><strong style="color:#fff;">Conlang Club @ UCSD</strong><br><a href="/">Home</a> · <a href="/tlag/">Tlag</a> · <a href="/about/">About</a> · <a href="/officers/">Officers</a> · <a href="/projects/">Projects</a> · <a href="/faq/">FAQ</a> · <a href="https://discord.gg/PdkpT26AHG">Discord</a> · <a href="mailto:conlangclubatucsd@gmail.com">Email</a></p>
+    <p>&copy; <span data-year>2026</span> Conlang Club @ UCSD</p>
+  </div>
+</footer>
+</div>
 
 <script src="../../script.js"></script>
 </body>

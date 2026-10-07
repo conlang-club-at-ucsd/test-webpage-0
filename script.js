@@ -147,5 +147,13 @@ function initSite() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadIncludes().then(initSite);
+  // initSite must run even if the header/footer fetch fails, so the page
+  // still gets the year, mobile toggle (when header loaded), and FAQ animation.
+  // when fetch fails, the static fallback markup inside [data-include] stays.
+  try {
+    loadIncludes().then(initSite, initSite);
+  } catch (err) {
+    console.error('[includes] Unexpected error:', err);
+    initSite();
+  }
 });

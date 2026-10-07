@@ -584,3 +584,24 @@ section{ padding: 64px 0; }
 @media (prefers-reduced-motion: reduce){
   .faq-item summary::after{ transition: none; }
 }
+
+/* static fallback header/footer shown when JS is off or /partials/layout.html fails to load.
+   JS replaces this markup on success, so it only needs to be readable, not pixel-perfect. */
+.nav-links--static{
+  flex-wrap: wrap;
+  row-gap: 2px;
+}
+.site-footer--static a{ color: #f4e3f2; }
+.site-footer--static a:hover{ color: var(--gold); }
+@media (max-width: 780px){
+  .nav-links--static{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: none;
+    border-bottom: 0;
+    padding: 0;
+  }
+  .nav-links--static a{ padding: 8px 10px; }
+}
