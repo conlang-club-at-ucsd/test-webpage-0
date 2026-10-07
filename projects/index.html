@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Member Conlangs - Conlang Club @ UCSD</title>
-<meta name="description" content="Personal constructed-language projects from Conlang Club @ UCSD officers and members.">
+<title>Member Projects - Conlang Club @ UCSD</title>
+<meta name="description" content="Personal constructed-language or worldbuilding projects from Conlang Club @ UCSD officers and members.">
 <link rel="icon" href="../assets/logo.png" type="image/webp">
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Member Conlangs - Conlang Club @ UCSD">
+<meta property="og:title" content="Member Projects - Conlang Club @ UCSD">
 <meta property="og:description" content="Personal constructed-language projects from Conlang Club @ UCSD officers and members.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="/assets/logo.png">
@@ -27,7 +27,7 @@
     <div class="wrap">
       <span class="hero-eyebrow">Member work</span>
       <h1>Projects</h1>
-      <p>Showcases for conlangs built by our members.</p>
+      <p>Showcases for fun little things built by our members.</p>
     </div>
   </div>
 
@@ -126,7 +126,7 @@
     .then(function (data) {
       var projects = (data && data.projects) || [];
       if (!projects.length) {
-        status.textContent = 'No member conlangs published yet.';
+        status.textContent = 'No member projects published yet.';
         return;
       }
       grid.innerHTML = projects.map(card).join('');
@@ -134,7 +134,7 @@
       status.hidden = true;
       if (count) {
         count.textContent =
-          'Showing ' + projects.length + (projects.length === 1 ? ' member conlang' : ' member conlangs');
+          'Showing ' + projects.length + (projects.length === 1 ? ' member project' : ' member projects');
       }
       return enrichAuthors(projects);
     })

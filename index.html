@@ -67,15 +67,15 @@
       <div>
         <span class="eyebrow-tag" style="color:#FFB700;">Member spotlight</span>
         <h2>See what our members have made</h2>
-        <p id="spotlight-blurb">This page showcases conlangs made by our very own members and officers.</p>
-        <a class="btn" href="projects/">Browse member conlangs</a>
+        <p id="spotlight-blurb">This page showcases conlangs and worldbuilding projects made by our very own members and officers.</p>
+        <a class="btn" href="projects/">Browse member projects</a>
       </div>
       <div class="card card--purple" id="spotlight-card">
         <span class="tag" style="background:#FFB700; color:#17110f; border-color:#17110f;">Featured</span>
         <h3 id="spotlight-title">Loading…</h3>
-        <p id="spotlight-excerpt">Fetching a featured conlang from our member projects.</p>
+        <p id="spotlight-excerpt">Fetching a featured project from our member project lists.</p>
         <p id="spotlight-meta" hidden></p>
-        <a class="btn btn--small" id="spotlight-link" href="projects/">Browse member conlangs</a>
+        <a class="btn btn--small" id="spotlight-link" href="projects/">Browse member projects</a>
       </div>
     </div>
   </section>
@@ -144,10 +144,10 @@
       if (!projects.length) {
         show(
           'Member conlangs',
-          'No member conlangs published yet; check back soon.',
+          'No member projects published yet; check back soon.',
           '',
           'projects/',
-          'Browse member conlangs'
+          'Browse member projects'
         );
         return null;
       }
@@ -179,10 +179,10 @@
       console.error('[spotlight] Could not load projects/data/index.json:', err);
       show(
         'Member conlangs',
-        'Could not load the featured conlang. Browse all of them instead.',
+        'Could not load the featured project. Browse all of them instead.',
         '',
         'projects/',
-        'Browse member conlangs'
+        'Browse member projects'
       );
     });
 })();
