@@ -42,7 +42,7 @@ function urlFor(file, root) {
 function metaFor(url) {
   if (url === '/') return { changefreq: 'weekly', priority: '1.0' };
   if (url === '/faq/') return { changefreq: 'monthly', priority: '0.7' };
-  if (['/about/', '/officers/', '/projects/', '/tlag/'].includes(url))
+  if (['/about/', '/officers/', '/projects/', '/tlag/', '/tools/'].includes(url))
     return { changefreq: 'monthly', priority: '0.8' };
   return { changefreq: 'monthly', priority: '0.6' };
 }
