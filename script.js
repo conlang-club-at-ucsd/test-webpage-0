@@ -1,5 +1,10 @@
-// this is the path to the layout thingy, change it if you change the path
-var LAYOUT_URL = '/partials/layout.html';
+// canonical layout lives on the main site; subdomains fetch it cross-origin.
+// GitHub Pages serves `Access-Control-Allow-Origin: *`, so this works on a
+// completely static setup with no server config. local copy is fallback only.
+var LAYOUT_URLS = [
+  'https://conlangatucsd.com/partials/layout.html',
+  '/partials/layout.html'
+];
 
 // i hate regex (normalizes /about, about, or about/ (this is an example))
 function normalizePath(path) {
@@ -10,33 +15,58 @@ function loadIncludes() {
   var slots = document.querySelectorAll('[data-include]');
   if (!slots.length) return Promise.resolve();
 
-  return fetch(LAYOUT_URL)
-    .then(function (res) {
-      if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-      return res.text();
-    })
-    .then(function (html) {
+  function tryFetch(i) {
+    if (i >= LAYOUT_URLS.length) {
+      throw new Error('all layout URLs failed: ' + LAYOUT_URLS.join(', '));
+    }
+    return fetch(LAYOUT_URLS[i], { mode: 'cors' })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+        return res.text();
+      })
+      .then(function (html) {
+        return { html: html, url: LAYOUT_URLS[i] };
+      })
+      .catch(function (err) {
+        if (i + 1 < LAYOUT_URLS.length) return tryFetch(i + 1);
+        throw err;
+      });
+  }
+
+  return tryFetch(0)
+    .then(function (result) {
+      var html = result.html;
+      var usedUrl = result.url;
       var doc = new DOMParser().parseFromString(html, 'text/html');
       slots.forEach(function (slot) {
         var name = slot.getAttribute('data-include');
         var tpl = doc.getElementById(name);
         if (!tpl) {
-          console.warn('[includes] No <template id="' + name + '"> in ' + LAYOUT_URL);
+          console.warn('[includes] No <template id="' + name + '"> in ' + usedUrl);
           return;
         }
         slot.replaceWith(document.importNode(tpl.content, true));
       });
 
-      // highlights the nav link that's currently selected
+      // highlights the nav link that's currently selected.
+      // only same-origin links are considered, so subdomains using the
+      // canonical main-site layout correctly get no highlight.
       var here = normalizePath(location.pathname);
-      document.querySelectorAll('.nav-links a[href^="/"]').forEach(function (a) {
-        if (normalizePath(new URL(a.href).pathname) === here) {
+      document.querySelectorAll('.nav-links a[href]').forEach(function (a) {
+        var url;
+        try {
+          url = new URL(a.getAttribute('href'), location.href);
+        } catch (err) {
+          return;
+        }
+        if (url.origin !== location.origin) return;
+        if (normalizePath(url.pathname) === here) {
           a.setAttribute('aria-current', 'page');
         }
       });
     })
     .catch(function (err) {
-      console.error('[includes] Could not load ' + LAYOUT_URL + ':', err,);
+      console.error('[includes] Could not load ' + LAYOUT_URLS.join(' or ') + ':', err,);
     });
 }
 
